@@ -33,10 +33,10 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          if git diff --quiet latest_news.md; then
+          if git diff --quiet README.md; then
             echo "No changes detected, skipping commit."
           else
-            git add latest_news.md
+            git add README.md
             git commit -m "Automated daily cyber news update"
             git push
           fi
