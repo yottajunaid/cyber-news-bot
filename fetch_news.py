@@ -6,25 +6,6 @@ RSS_URL = "https://feeds.feedburner.com/TheHackersNews"
 OUTPUT_FILE = "README.md"
 NUM_ARTICLES = 5
 
-README_HEADER = """# Cyber News Bot
-
-Automated daily cybersecurity news fetcher powered by GitHub Actions.
-
-Every day at 10:00 AM UTC, a GitHub Actions workflow runs `fetch_news.py` to pull the latest 5 articles from [The Hacker News](https://feeds.feedburner.com/TheHackersNews) RSS feed and updates this README with the results.
-
-You can also trigger the workflow manually via the Actions tab.
-
-## Files
-
-- `fetch_news.py` — Fetches and parses the RSS feed, writes formatted news to `README.md`
-- `.github/workflows/daily_news.yml` — GitHub Actions workflow (cron + manual dispatch)
-- `requirements.txt` — Python dependencies
-
----
-
-"""
-
-
 def fetch_news():
     response = requests.get(RSS_URL, timeout=30)
     response.raise_for_status()
@@ -46,7 +27,7 @@ def format_news(feed):
         lines.append(f"[Read more]({link})\n")
         lines.append("---\n")
 
-    return README_HEADER + "\n".join(lines)
+    return "\n".join(lines)
 
 
 def main():
