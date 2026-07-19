@@ -1,2 +1,3 @@
 requests==2.31.0
 feedparser==6.0.10
+legacy-cgi==2024.10.3
