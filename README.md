@@ -1,59 +1,59 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 20 Jul 2026 14:29:17 +0530*
+*Last updated: Tue, 21 Jul 2026 15:34:57 +0530*
 
-### 1. New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction
+### 1. WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning
 
-Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02.
+Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites.
 
-The overflow lets an attacker "execute code in the context of the current process," per the
+The two security flaws, tracked as CVE-2026-63030 and CVE-2026-60137, have been codenamed wp2shell.
 
-[Read more](https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html)
+"By the early hours of Saturday morning (UTC), successful exploitation was already well
 
----
-
-### 2. Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs
-
-A solo Russian-speaking threat actor known as "bandcampro" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet.
-
-The findings come from an analysis of 200 Gemini CLI session logs between March 19 and April 21, 2026, which found the threat actor using AI, among other things, to crack passwords, set up a residential
-
-[Read more](https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html)
+[Read more](https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html)
 
 ---
 
-### 3. World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent
+### 2. New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack
 
-In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system.
+Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month.
 
-The company said it detected and responded to the incident targeting its production infrastructure earlier last week.
+The same operator has now been spotted deploying ENCFORGE, a new compiled Go ransomware designed to encrypt model weights, vector indexes, training datasets, and other AI infrastructure files across the host filesystem.
 
-"We identified unauthorized access to a limited set of internal datasets and to several credentials used by
+The entry
 
-[Read more](https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html)
-
----
-
-### 4. SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines
-
-Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of serving additional payloads.
-
-The rogue gems are listed below -
-
-
-  git_credential_manager (versions 2.8.0, 2.8.1, 2.8.2, 2.8.3) - Published on July 18, 2026
-  Dendreo (versions 1.1.3, 1.1.4) -
-
-[Read more](https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html)
+[Read more](https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html)
 
 ---
 
-### 5. Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution
+### 3. Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution
 
-F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline), and in NGINX Plus 37.0.3.1; anyone on an earlier build should upgrade.
+Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber.
 
-Triggering it can crash or restart the worker, causing a denial of
+In a post shared on X, the threat intelligence firm said it's observing in-the-wild exploitation of CVE-2026-6875 (CVSS score: 9.5), a sandbox escape vulnerability that could allow an unauthenticated user to run arbitrary code.
 
-[Read more](https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html)
+Patches for the flaw were
+
+[Read more](https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html)
+
+---
+
+### 4. FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware
+
+Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context Protocol (MCP) servers to deliver a malware family known as SmartLoader as part of an ongoing campaign codenamed FakeGit.
+
+"FakeGit uses copied projects, lookalike developer profiles, convincing READMEs, and malicious ZIP
+
+[Read more](https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html)
+
+---
+
+### 5. Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign
+
+A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Mexico, delivering an infostealer through a fake government ID-lookup site over WebDAV.
+
+What makes it more than a
+
+[Read more](https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html)
 
 ---
