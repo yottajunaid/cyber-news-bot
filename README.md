@@ -1,59 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Tue, 21 Jul 2026 15:34:57 +0530*
+*Last updated: Wed, 22 Jul 2026 08:42:24 +0530*
 
-### 1. WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning
+### 1. Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs
 
-Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites.
+Apple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy guarantees.
 
-The two security flaws, tracked as CVE-2026-63030 and CVE-2026-60137, have been codenamed wp2shell.
+404 Media reported Tuesday that a fix for the issue was deployed by Apple on July 3, 2026, after more than a year, when it was disclosed to the company by Tyler Murphy, co-founder of EasyOptOuts.
 
-"By the early hours of Saturday morning (UTC), successful exploitation was already well
+Hide My Email
 
-[Read more](https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html)
-
----
-
-### 2. New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack
-
-Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month.
-
-The same operator has now been spotted deploying ENCFORGE, a new compiled Go ransomware designed to encrypt model weights, vector indexes, training datasets, and other AI infrastructure files across the host filesystem.
-
-The entry
-
-[Read more](https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html)
+[Read more](https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html)
 
 ---
 
-### 3. Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution
+### 2. AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code
 
-Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber.
+Hidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to stop it.
 
-In a post shared on X, the threat intelligence firm said it's observing in-the-wild exploitation of CVE-2026-6875 (CVSS score: 9.5), a sandbox escape vulnerability that could allow an unauthenticated user to run arbitrary code.
+Intezer, in research with Kodem Security, found that a request as ordinary as asking Kiro to summarize a page could end in remote code execution. AWS has patched the issue, and no CVE has been
 
-Patches for the flaw were
-
-[Read more](https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html)
+[Read more](https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html)
 
 ---
 
-### 4. FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware
+### 3. Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities
 
-Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context Protocol (MCP) servers to deliver a malware family known as SmartLoader as part of an ongoing campaign codenamed FakeGit.
+Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently.
 
-"FakeGit uses copied projects, lookalike developer profiles, convincing READMEs, and malicious ZIP
+According to the tech giant, the model will be exclusively available to governments and trusted partners via CodeMender as part of a limited-access pilot
 
-[Read more](https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html)
+[Read more](https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html)
 
 ---
 
-### 5. Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign
+### 4. Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC
 
-A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Mexico, delivering an infostealer through a fake government ID-lookup site over WebDAV.
+A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr.
 
-What makes it more than a
+The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an unauthorized attacker to execute code over a network. Microsoft credited DEVCORE
 
-[Read more](https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html)
+[Read more](https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html)
+
+---
+
+### 5. Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access
+
+Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments.
+
+Arctic Wolf Labs said it investigated multiple intrusions in June 2026 that began with the exploitation of CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway
+
+[Read more](https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html)
 
 ---
