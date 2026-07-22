@@ -29,7 +29,7 @@ jobs:
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "114429773@users.noreply.github.com"
 
       - name: Commit and push changes
         run: |
