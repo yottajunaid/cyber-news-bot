@@ -1,53 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Wed, 22 Jul 2026 15:58:46 +0530*
+*Last updated: Thu, 23 Jul 2026 10:36:01 +0530*
 
-### 1. Why Modern SOCs Need Multi-Layered Detections
+### 1. GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier
 
-The cycle is over. For years, cybersecurity followed a familiar pattern: defenses improved, attackers adapted, and the back-and-forth continued. Today, AI-equipped attackers are simply outpacing defenses. Most intrusions now bypass endpoint and malware-based detection entirely.
+Beginning July 27, 2026, GitHub will cut public bug bounty payouts by at least half at every severity level. Critical findings will drop from $20,000-$30,000+ to a fixed $10,000, while its permanent invite-only VIP tier will pay $30,000 or more.
 
-The CrowdStrike Global Threat Report estimates around 79% of attacks are malware-free, as threat actors rely on
+Reports filed before that date, including those already in GitHub's growing triage queue, will retain the previous payout terms.
 
-[Read more](https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html)
+GitHub said the
 
----
-
-### 2. Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA
-
-German and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, and Indonesian authorities arrested the man they say developed and ran it.
-
-In a joint announcement on Monday, the Frankfurt public prosecutor's cybercrime unit (ZIT) and Germany's Federal Criminal Police Office (BKA)
-
-[Read more](https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html)
+[Read more](https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html)
 
 ---
 
-### 3. Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library
+### 2. Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs
 
-Cybersecurity researchers have discovered a NuGet typosquat that's unlike the typical information-stealing malware distributed via package registries: usual info-stealers: it's designed to rig live game results on Digitain.
+Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complete control of a target environment.
 
-The package, named "Newtonsoftt.Json.Net," masquerades as the Newtonsoft.Json library and is a trojanized fork. Seven versions of the package have been published to the
+The high-severity flaw, tracked as CVE-2026-8933 (CVSS score: 7.8), impacts default installations of Ubuntu Desktop 24.04, 25.10, and 26.04. The disclosure comes as
 
-[Read more](https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html)
-
----
-
-### 4. Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents
-
-A single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and quietly leaking what it finds.
-
-The flaw is in Microsoft's official Azure DevOps MCP server, and it works because one of its tools returns pull request descriptions without a prompt-injection guardrail the company had
-
-[Read more](https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html)
+[Read more](https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html)
 
 ---
 
-### 5. OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark
+### 3. Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data
 
-OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an "even more capable pre-release model," was behind the security incident that targeted Hugging Face's production infrastructure last week.
+Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a silent hijack of a user's WhatsApp data.
 
-The AI company said the models were operating with "reduced cyber refusals for evaluation purposes" that might otherwise limit their ability to
+The shortcoming has been codenamed HermeticReader by Guardio Labs. It's officially tracked as CVE-2026-48294 (CVSS score: 7.4), with the vulnerability
 
-[Read more](https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html)
+[Read more](https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html)
+
+---
+
+### 4. Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication
+
+A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck.
+
+The vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated path traversal impacting Windmill's "get_log_file" endpoint ("/api/w/{workspace}/jobs_u/get_log_file/{filename}").
+
+"The filename parameter is concatenated into
+
+[Read more](https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html)
+
+---
+
+### 5. The Fastest Path to AI Adoption Runs Through Security
+
+Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the visibility they need, employees the tools they want, and CISOs the strategic influence they have earned.
+
+According to McKinsey's State of AI report, 76 percent of employees now use AI in some capacity at work, up from 55
+
+[Read more](https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html)
 
 ---
