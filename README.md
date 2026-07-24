@@ -1,57 +1,61 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 23 Jul 2026 10:36:01 +0530*
+*Last updated: Fri, 24 Jul 2026 11:27:23 +0530*
 
-### 1. GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier
+### 1. Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks
 
-Beginning July 27, 2026, GitHub will cut public bug bounty payouts by at least half at every severity level. Critical findings will drop from $20,000-$30,000+ to a fixed $10,000, while its permanent invite-only VIP tier will pay $30,000 or more.
+The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems.
 
-Reports filed before that date, including those already in GitHub's growing triage queue, will retain the previous payout terms.
+The activity has been attributed by the agency to a threat cluster it tracks as UAC-0099, a Russia-aligned group that has previously observed weaponizing security flaws in WinRAR software to
 
-GitHub said the
-
-[Read more](https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html)
+[Read more](https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html)
 
 ---
 
-### 2. Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs
+### 2. Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes
 
-Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complete control of a target environment.
+A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client.
 
-The high-severity flaw, tracked as CVE-2026-8933 (CVSS score: 7.8), impacts default installations of Ubuntu Desktop 24.04, 25.10, and 26.04. The disclosure comes as
+The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it.
 
-[Read more](https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html)
+The NSA, CISA and partner agencies published
 
----
-
-### 3. Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data
-
-Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a silent hijack of a user's WhatsApp data.
-
-The shortcoming has been codenamed HermeticReader by Guardio Labs. It's officially tracked as CVE-2026-48294 (CVSS score: 7.4), with the vulnerability
-
-[Read more](https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html)
+[Read more](https://thehackernews.com/2026/07/russian-espionage-group-exploited.html)
 
 ---
 
-### 4. Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication
+### 3. ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories
 
-A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck.
+Most of this week's trouble came dressed as something useful.
 
-The vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated path traversal impacting Windmill's "get_log_file" endpoint ("/api/w/{workspace}/jobs_u/get_log_file/{filename}").
+A package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders to an AI agent. Other threats hid in open systems, weak code, and normal network traffic.
 
-"The filename parameter is concatenated into
 
-[Read more](https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html)
+ The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+
+
+The danger was
+
+[Read more](https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html)
 
 ---
 
-### 5. The Fastest Path to AI Adoption Runs Through Security
+### 4. Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files
 
-Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the visibility they need, employees the tools they want, and CISOs the strategic influence they have earned.
+Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which the agent runs to read or write files anywhere on the Mac.
 
-According to McKinsey's State of AI report, 76 percent of employees now use AI in some capacity at work, up from 55
+Accomplish AI, which shared details of the vulnerability with The Hacker News ahead of publication, said about 500,000 macOS users running
 
-[Read more](https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html)
+[Read more](https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html)
+
+---
+
+### 5. Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge
+
+The Chaos ransomware group ran its command-and-control through the victim's own browser. Cisco Talos on Thursday detailed msaRAT, the Rust implant behind it, found on a compromised Windows machine ahead of the encryptor.
+
+The implant never opens an outbound connection of its own. Its process talks to 127.0.0.1 and nothing else. It starts Chrome or Edge in headless mode and drives the browser
+
+[Read more](https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html)
 
 ---
