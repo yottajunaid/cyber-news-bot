@@ -1,61 +1,51 @@
 ## Latest Cybersecurity News
 
-*Last updated: Fri, 24 Jul 2026 11:27:23 +0530*
+*Last updated: Sat, 25 Jul 2026 10:23:40 +0530*
 
-### 1. Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks
+### 1. BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery
 
-The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems.
+The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware.
 
-The activity has been attributed by the agency to a threat cluster it tracks as UAC-0099, a Russia-aligned group that has previously observed weaponizing security flaws in WinRAR software to
+"BlueNoroff has operationalised trust abuse by combining compromised industry contacts, social engineering, wallet
 
-[Read more](https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html)
-
----
-
-### 2. Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes
-
-A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client.
-
-The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it.
-
-The NSA, CISA and partner agencies published
-
-[Read more](https://thehackernews.com/2026/07/russian-espionage-group-exploited.html)
+[Read more](https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html)
 
 ---
 
-### 3. ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories
+### 2. Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller
 
-Most of this week's trouble came dressed as something useful.
+Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine.
 
-A package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders to an AI agent. Other threats hid in open systems, weak code, and normal network traffic.
+They codenamed the flaw Certighost. Because Domain Controller accounts carry directory replication rights, the resulting Kerberos credential can retrieve the krbtgt secret through DCSync.
 
-
- The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
-
-
-The danger was
-
-[Read more](https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html)
+[Read more](https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html)
 
 ---
 
-### 4. Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files
+### 3. ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link
 
-Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which the agent runs to read or write files anywhere on the Mac.
+Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization.
 
-Accomplish AI, which shared details of the vulnerability with The Hacker News ahead of publication, said about 500,000 macOS users running
+The vulnerability has been codenamed AgentForger by Zenity Labs. The issue has since been addressed by OpenAI as of June 8,
 
-[Read more](https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html)
+[Read more](https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html)
 
 ---
 
-### 5. Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge
+### 4. Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers
 
-The Chaos ransomware group ran its command-and-control through the victim's own browser. Cisco Talos on Thursday detailed msaRAT, the Rust implant behind it, found on a compromised Windows machine ahead of the encryptor.
+A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet.
 
-The implant never opens an outbound connection of its own. Its process talks to 127.0.0.1 and nothing else. It starts Chrome or Edge in headless mode and drives the browser
+XBOW's testing got the same result on workers across different hosts and network ranges, so the problem sat in Bing's image tier, not on one bad machine. Microsoft issued two critical CVEs, CVE-2026-32194 and
 
-[Read more](https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html)
+[Read more](https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html)
+
+---
+
+### 5. Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do
+
+AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever imagined. This is why there are so many approaches, from prompt filtering to identity-layer access controls. Where we've collectively landed is that understanding the intent of
+
+[Read more](https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html)
 
 ---
