@@ -1,51 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sat, 25 Jul 2026 10:23:40 +0530*
+*Last updated: Sun, 26 Jul 2026 10:17:39 +0530*
 
-### 1. BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery
+### 1. Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable
 
-The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware.
+A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL.
 
-"BlueNoroff has operationalised trust abuse by combining compromised industry contacts, social engineering, wallet
+Confiant, which detailed the campaign on July 23, 2026, said it has operated since late 2024 and impersonated TradingView, Solana, and Luno to target retail traders and
 
-[Read more](https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html)
-
----
-
-### 2. Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller
-
-Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine.
-
-They codenamed the flaw Certighost. Because Domain Controller accounts carry directory replication rights, the resulting Kerberos credential can retrieve the krbtgt secret through DCSync.
-
-[Read more](https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html)
+[Read more](https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html)
 
 ---
 
-### 3. ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link
+### 2. Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
 
-Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization.
+Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process.
 
-The vulnerability has been codenamed AgentForger by Zenity Labs. The issue has since been addressed by OpenAI as of June 8,
+Tracked as CVE-2026-16723, the vulnerability carries an Alibaba-assigned CVSS score of 9.0. The confirmed chain requires
 
-[Read more](https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html)
-
----
-
-### 4. Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers
-
-A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet.
-
-XBOW's testing got the same result on workers across different hosts and network ranges, so the problem sat in Bing's image tier, not on one bad machine. Microsoft issued two critical CVEs, CVE-2026-32194 and
-
-[Read more](https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html)
+[Read more](https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html)
 
 ---
 
-### 5. Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do
+### 3. Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git
 
-AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever imagined. This is why there are so many approaches, from prompt filtering to identity-layer access controls. Where we've collectively landed is that understanding the intent of
+Security researchers at&nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update.
 
-[Read more](https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html)
+Any authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap
+
+[Read more](https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html)
+
+---
+
+### 4. CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking
+
+For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose.
+
+That model is changing.
+
+Recent investigations into insurance-focused phishing operations reveal a more immediate approach. Instead of harvesting
+
+[Read more](https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html)
+
+---
+
+### 5. Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
+
+Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign.
+
+"Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet, enabling
+
+[Read more](https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html)
 
 ---
