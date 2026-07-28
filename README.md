@@ -1,55 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 27 Jul 2026 12:18:27 +0530*
+*Last updated: Tue, 28 Jul 2026 10:57:12 +0530*
 
-### 1. Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable
+### 1. Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost
 
-A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL.
+Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness.
 
-Confiant, which detailed the campaign on July 23, 2026, said it has operated since late 2024 and impersonated TradingView, Solana, and Luno to target retail traders and
+The company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% less than its current best MDASH combination of GPT-5.4, GPT-5.4 mini, and GPT-5.3 Codex. Access is limited to approved
 
-[Read more](https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html)
-
----
-
-### 2. Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
-
-Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process.
-
-Tracked as CVE-2026-16723, the vulnerability carries an Alibaba-assigned CVSS score of 9.0. The confirmed chain requires
-
-[Read more](https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html)
+[Read more](https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html)
 
 ---
 
-### 3. Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git
+### 2. Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw
 
-Security researchers at&nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update.
+A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild.
 
-Any authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap
+The vulnerability, tracked as CVE-2026-16812 (CVSS score: 10.0), is a case of operating system command injection that could pave the way for arbitrary code execution.
 
-[Read more](https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html)
+"VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue
 
----
-
-### 4. CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking
-
-For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose.
-
-That model is changing.
-
-Recent investigations into insurance-focused phishing operations reveal a more immediate approach. Instead of harvesting
-
-[Read more](https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html)
+[Read more](https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html)
 
 ---
 
-### 5. Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
+### 3. NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework
 
-Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign.
+NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents.
 
-"Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet, enabling
+The 37-member group spans cloud, security, enterprise software, and AI companies, including Microsoft, Cisco, Cloudflare, CrowdStrike, Hugging Face, IBM, Palo Alto Networks, Red Hat, and the Linux
 
-[Read more](https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html)
+[Read more](https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html)
+
+---
+
+### 4. Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption
+
+Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement operation against JackSkid infrastructure. The researchers say the design makes the botnet harder to disrupt.
+
+CNCERT, China's national computer emergency response team, and XLab, the threat-intelligence lab of Chinese
+
+[Read more](https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html)
+
+---
+
+### 5. Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw
+
+Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user.
+
+SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version
+
+[Read more](https://thehackernews.com/2026/07/public-exploit-released-for-patched.html)
 
 ---
