@@ -1,61 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Wed, 29 Jul 2026 11:22:05 +0530*
+*Last updated: Thu, 30 Jul 2026 11:23:56 +0530*
 
-### 1. OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach
+### 1. Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet
 
-OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment, and also hacked multiple third-party accounts and services as part of the attack.
+Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script pushed into at least 18 packages carrying more than 2 billion weekly downloads between them.
 
-The latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than
+The original Aikido and Wiz reports did not attribute the
 
-[Read more](https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html)
-
----
-
-### 2. Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js
-
-Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.
-
-The list of affected packages is as follows -
-
-
-  @joyfill/layouts@0.1.2-2773.beta.0
-  @joyfill/components@4.0.0-rc24-2773-beta.4
-
-The two packages "contain an import-time JavaScript implant that resolves encrypted code
-
-[Read more](https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html)
+[Read more](https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html)
 
 ---
 
-### 3. Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack
+### 2. Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data
 
-Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation.
 
-The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server
+The vulnerability, assigned CVE-2026-20316 (CVSS score: 5.3), could permit an unauthenticated, remote attacker to log
 
-[Read more](https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html)
-
----
-
-### 4. Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
-
-A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process.
-
-If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force.
-
-Tengu supports 25 distributed denial-of-service (
-
-[Read more](https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html)
+[Read more](https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html)
 
 ---
 
-### 5. 24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login
+### 3. Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads
 
-Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet.
+Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.
 
-Of the 36,872 internet-exposed server-management interfaces running IPMI, 24,650 have been found to disclose password-derived authentication hashes before login due to
+Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,
 
-[Read more](https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html)
+[Read more](https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html)
+
+---
+
+### 4. Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory
+
+Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.
+
+The vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project before version 3.16.3. It has been codenamed RufRoot by Noma Security's
+
+[Read more](https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html)
+
+---
+
+### 5. Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape
+
+Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.
+
+The first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter.
+
+"A malicious actor with network access to vCenter
+
+[Read more](https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html)
 
 ---
