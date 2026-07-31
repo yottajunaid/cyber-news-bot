@@ -1,55 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 30 Jul 2026 11:23:56 +0530*
+*Last updated: Fri, 31 Jul 2026 06:51:47 +0530*
 
-### 1. Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet
+### 1. DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware
 
-Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script pushed into at least 18 packages carrying more than 2 billion weekly downloads between them.
+Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Contagious Interview campaign.
 
-The original Aikido and Wiz reports did not attribute the
+The defining aspect of the attack is that bogus macOS software update screen stealthily
 
-[Read more](https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html)
-
----
-
-### 2. Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation.
-
-The vulnerability, assigned CVE-2026-20316 (CVSS score: 5.3), could permit an unauthenticated, remote attacker to log
-
-[Read more](https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html)
+[Read more](https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html)
 
 ---
 
-### 3. Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads
+### 2. ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories
 
-Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.
+A lot of security still comes down to trusting the wrong screen.
 
-Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,
+This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and exploit paths that should have been harder.
 
-[Read more](https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html)
+Some defenses improved. The loose parts still got found first. Anyway,
 
----
-
-### 4. Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory
-
-Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.
-
-The vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project before version 3.16.3. It has been codenamed RufRoot by Noma Security's
-
-[Read more](https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html)
+[Read more](https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html)
 
 ---
 
-### 5. Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape
+### 3. Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database
 
-Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.
+A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz.
 
-The first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter.
+Wiz, which codenamed the chain CosmosEscape, said the exploit chain began with a crafted query against a Gremlin database controlled by the attacker. From there, code execution on a
 
-"A malicious actor with network access to vCenter
+[Read more](https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html)
 
-[Read more](https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html)
+---
+
+### 4. Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents
+
+Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite figures in a report, then copy the same instructions into the finished file. Håkon Måløy disclosed the technique on July 28, 144 days after reporting it to Microsoft.
+
+In his proof of concept, the internally generated file triggered the same behavior when it was used in a second Copilot drafting session.
+
+Måløy's
+
+[Read more](https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html)
+
+---
+
+### 5. The Network Has Become the Control Plane for AI Security
+
+Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect to applications, applications exchange data, and security tools inspect packets, protocols, and destinations. Firewalls
+
+[Read more](https://thehackernews.com/2026/07/the-network-has-become-control-plane.html)
 
 ---
