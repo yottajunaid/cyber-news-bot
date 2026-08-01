@@ -1,55 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Fri, 31 Jul 2026 06:51:47 +0530*
+*Last updated: Sat, 01 Aug 2026 10:49:35 +0530*
 
-### 1. DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware
+### 1. Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk
 
-Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Contagious Interview campaign.
+A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025.
 
-The defining aspect of the attack is that bogus macOS software update screen stealthily
+These targeted organizations operate across several sectors, such as healthcare, research, government offices,
 
-[Read more](https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html)
-
----
-
-### 2. ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories
-
-A lot of security still comes down to trusting the wrong screen.
-
-This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and exploit paths that should have been harder.
-
-Some defenses improved. The loose parts still got found first. Anyway,
-
-[Read more](https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html)
+[Read more](https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html)
 
 ---
 
-### 3. Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database
+### 2. HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm
 
-A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz.
+Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka.
 
-Wiz, which codenamed the chain CosmosEscape, said the exploit chain began with a crafted query against a Gremlin database controlled by the attacker. From there, code execution on a
+According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that
 
-[Read more](https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html)
-
----
-
-### 4. Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents
-
-Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite figures in a report, then copy the same instructions into the finished file. Håkon Måløy disclosed the technique on July 28, 144 days after reporting it to Microsoft.
-
-In his proof of concept, the internally generated file triggered the same behavior when it was used in a second Copilot drafting session.
-
-Måløy's
-
-[Read more](https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html)
+[Read more](https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html)
 
 ---
 
-### 5. The Network Has Become the Control Plane for AI Security
+### 3. Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies
 
-Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect to applications, applications exchange data, and security tools inspect packets, protocols, and destinations. Firewalls
+Bitsight says some cheap Android TV boxes have shipped with apps that rewrite their hardware identity to mimic Samsung, Huawei, Xiaomi, or Vivo phones, then click ads on websites run by the same operators.
 
-[Read more](https://thehackernews.com/2026/07/the-network-has-become-control-plane.html)
+Researchers named the operation Fuyao and attributed it to Zhejiang Fengwo IoT Technology Co., Ltd., a mainland China company founded in 2019.
+
+The same apps have a second job. When a box
+
+[Read more](https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html)
+
+---
+
+### 4. Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined
+
+Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing the total number of flaws the company fixed across the prior 23 milestones combined.
+
+Both versions were released last month. In its latest patch for Chrome 151, released Wednesday, the tech giant resolved 370 flaws, out of which 349 were reported by Google itself. Seven of the
+
+[Read more](https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html)
+
+---
+
+### 5. Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw
+
+An academic study has disclosed a "widespread class" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and even session hijacking, allowing an attacker to seize control of a user's network session.
+
+The findings have been released by a group of researchers from Singapore's Nanyang Technological University
+
+[Read more](https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html)
 
 ---
