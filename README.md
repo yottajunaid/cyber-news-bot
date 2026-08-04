@@ -1,59 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 03 Aug 2026 11:50:51 +0530*
+*Last updated: Tue, 04 Aug 2026 11:14:21 +0530*
 
-### 1. N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete
+### 1. 18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users
 
-N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.
+Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments.
 
-Its first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped build 2026.3.1.7 on August 2 as the first unaffected version.
+One of the packages in question is "lib-mtop," an unscoped package with the same name as a private Alibaba package
 
-N-central is the remote monitoring and management platform
-
-[Read more](https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html)
+[Read more](https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html)
 
 ---
 
-### 2. Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code
+### 2. Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts
 
-Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk.
+Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.
 
-"These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the
+Unit 42 detailed three attack paths against Chrome's Google Password Manager cloud authenticator, which it calls Pass-ta-key, Silver Pass-ta-key and Golden Pass-ta-key; the strongest targets the master key
 
-[Read more](https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html)
-
----
-
-### 3. Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes
-
-An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite.
-
-A March 2021 firmware integration error routed seed generation to a deterministic software pseudorandom number generator (PRNG
-
-[Read more](https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html)
+[Read more](https://thehackernews.com/2026/08/google-password-manager-attacks-could.html)
 
 ---
 
-### 4. Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites
+### 3. INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws
 
-Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.
+The INC Ransomware operation has emerged as the "dominant threat actor" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.
 
-Adform detected the incident on July 27, 2026, removed the malicious code, notified affected clients, and reported it to authorities.
+In a report published over the weekend, Resecurity said it observed the INC Ransomware accelerating its activity since the beginning of August 2026, listing multiple victims on its data leak site. Per
 
-Anyone who visited a site carrying the affected script on July 27 and copied a Bitcoin,
-
-[Read more](https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html)
+[Read more](https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html)
 
 ---
 
-### 5. Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction
+### 4. ⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks
 
-Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution.
+This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended.
 
-The vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system.
+Some of it was clever. Most of it was just access left lying around: old bugs, exposed gear, poisoned dependencies, weak defaults, and tooling that moved from
 
-It has been described as a case of incorrect authorization that could result in
+[Read more](https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html)
 
-[Read more](https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html)
+---
+
+### 5. FOMO in the SOC: Where AI Platforms like Claude Actually Fit
+
+AI is moving incredibly fast, and every security leader is feeling the pressure to keep up.
+
+AI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and automate repetitive work. The conversation has evolved from whether AI belongs in the SOC, to where each type of AI delivers the most value.
+
+With so many new AI
+
+[Read more](https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html)
 
 ---
