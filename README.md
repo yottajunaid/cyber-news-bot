@@ -1,55 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Tue, 04 Aug 2026 11:14:21 +0530*
+*Last updated: Wed, 05 Aug 2026 11:15:55 +0530*
 
-### 1. 18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users
+### 1. QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer
 
-Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments.
+Cybersecurity researchers have disclosed what has been described as a "long-standing supply chain attack" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users.
 
-One of the packages in question is "lib-mtop," an unscoped package with the same name as a private Alibaba package
+According to Fortinet FortiGuard Labs, the supply chain attack has been ongoing since at least August 2025 and involves a trojanized version of the application to deliver FDMTP, a
 
-[Read more](https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html)
-
----
-
-### 2. Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts
-
-Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.
-
-Unit 42 detailed three attack paths against Chrome's Google Password Manager cloud authenticator, which it calls Pass-ta-key, Silver Pass-ta-key and Golden Pass-ta-key; the strongest targets the master key
-
-[Read more](https://thehackernews.com/2026/08/google-password-manager-attacks-could.html)
+[Read more](https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html)
 
 ---
 
-### 3. INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws
+### 2. Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens
 
-The INC Ransomware operation has emerged as the "dominant threat actor" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.
+The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses the legitimate OAuth 2.0 Device Authorization Grant to bypass Multi-Factor Authentication (MFA) and seize control of user accounts.
 
-In a report published over the weekend, Resecurity said it observed the INC Ransomware accelerating its activity since the beginning of August 2026, listing multiple victims on its data leak site. Per
+"Greatness supports AiTM [adversary-in-the-middle] credential and
 
-[Read more](https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html)
-
----
-
-### 4. ⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks
-
-This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended.
-
-Some of it was clever. Most of it was just access left lying around: old bugs, exposed gear, poisoned dependencies, weak defaults, and tooling that moved from
-
-[Read more](https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html)
+[Read more](https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html)
 
 ---
 
-### 5. FOMO in the SOC: Where AI Platforms like Claude Actually Fit
+### 3. Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks
 
-AI is moving incredibly fast, and every security leader is feeling the pressure to keep up.
+A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026.
 
-AI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and automate repetitive work. The conversation has evolved from whether AI belongs in the SOC, to where each type of AI delivers the most value.
+SafeDep verified 353 poisoned versions across 79 package names in the npm registry. Its monitoring put the wider footprint at 442 versions across 353 names, while Aikido later reported at least 868 packages
 
-With so many new AI
+[Read more](https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html)
 
-[Read more](https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html)
+---
+
+### 4. Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access
+
+Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthily deploy Remote Monitoring and Management (RMM) programs like ConnectWise ScreenConnect.
+
+The campaign has been codenamed SMOKE#SCREEN by Securonix Threat
+
+[Read more](https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html)
+
+---
+
+### 5. When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted
+
+The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.
+
+That assumption is starting to break.
+
+Security teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as "script kiddies," sat at the other end, running public
+
+[Read more](https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html)
 
 ---
