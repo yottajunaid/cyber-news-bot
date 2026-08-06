@@ -1,55 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Wed, 05 Aug 2026 11:15:55 +0530*
+*Last updated: Thu, 06 Aug 2026 10:57:09 +0530*
 
-### 1. QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer
+### 1. Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People
 
-Cybersecurity researchers have disclosed what has been described as a "long-standing supply chain attack" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users.
+Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts.
 
-According to Fortinet FortiGuard Labs, the supply chain attack has been ongoing since at least August 2025 and involves a trojanized version of the application to deliver FDMTP, a
+The intrusions reached at least 165 organizations and exposed records belonging to at least 100 million people. Moucka, 26, of Kitchener, Ontario, personally took at least $495,000 from
 
-[Read more](https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html)
-
----
-
-### 2. Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens
-
-The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses the legitimate OAuth 2.0 Device Authorization Grant to bypass Multi-Factor Authentication (MFA) and seize control of user accounts.
-
-"Greatness supports AiTM [adversary-in-the-middle] credential and
-
-[Read more](https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html)
+[Read more](https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html)
 
 ---
 
-### 3. Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks
+### 2. Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures
 
-A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026.
+A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on infrastructure it had been watching for weeks.
 
-SafeDep verified 353 poisoned versions across 79 package names in the npm registry. Its monitoring put the wider footprint at 442 versions across 353 names, while Aikido later reported at least 868 packages
+The server-side gate hides the malicious page from crawlers and sandboxes while presenting selected Mac users with a fake software download. Microsoft
 
-[Read more](https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html)
-
----
-
-### 4. Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access
-
-Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthily deploy Remote Monitoring and Management (RMM) programs like ConnectWise ScreenConnect.
-
-The campaign has been codenamed SMOKE#SCREEN by Securonix Threat
-
-[Read more](https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html)
+[Read more](https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html)
 
 ---
 
-### 5. When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted
+### 3. OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes
 
-The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.
+OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes.
 
-That assumption is starting to break.
+To that end, it banned a coordinated network of ChatGPT accounts likely originating from Southeast Asia and operating from the city of Poipet, a region with extensive
 
-Security teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as "script kiddies," sat at the other end, running public
+[Read more](https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html)
 
-[Read more](https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html)
+---
+
+### 4. Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt
+
+Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms.
+
+One such service, Poison Claude, claims to offer access to Anthropic's large language models (LLMs), including Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6.
+
+"Advertisements for Poison Claude
+
+[Read more](https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html)
+
+---
+
+### 5. Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports
+
+Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it.
+
+A third flaw could expose sensitive data and control-plane details through application programming interface (API) routes
+
+[Read more](https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html)
 
 ---
