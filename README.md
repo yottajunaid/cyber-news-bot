@@ -1,57 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Fri, 07 Aug 2026 10:13:31 +0530*
+*Last updated: Sat, 08 Aug 2026 09:34:30 +0530*
 
-### 1. New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts
+### 1. Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer
 
-Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests.
+A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.
 
-The flaw is tracked as&nbsp;CVE-2026-64561&nbsp;and affects KVM/x86's shadow memory management unit (MMU), which manages shadow page
+"These packages appear to use AI slop squatted, or randomly generated typo-squatting package names, but all of them deliver a powerful RAT and infostealer payload," OpenSourceMalware researcher Paul
 
-[Read more](https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html)
-
----
-
-### 2. Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs
-
-Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review.
-
-The security issues affect Cisco Catalyst SD-WAN Software, regardless of device configuration, and Cisco IOS XE Software when it is running in autonomous or controller mode.
-
-"These vulnerabilities were found
-
-[Read more](https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html)
+[Read more](https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html)
 
 ---
 
-### 3. New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs
+### 2. ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets
 
-An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run.
+ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.
 
-MIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the technique INTERRUPT INJECTION. On an AMD Zen 2 machine running Linux 6.14 with every default Spectre v2 mitigation on,
+The macOS-focused infection chain is designed to deliver a shell script that profiles the host and then fetches a macOS malware payload that's compatible with the computer's CPU architecture.
 
-[Read more](https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html)
+"
 
----
-
-### 4. ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories
-
-Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job.
-
-This week runs on cheap leverage: exposed servers, recycled bugs, poisoned agent instructions, remote-access tools dressed as support software, and trusted defaults doing attackers a favor.
-
-Nothing here is especially mystical.
-
-[Read more](https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html)
+[Read more](https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html)
 
 ---
 
-### 5. Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities
+### 3. UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data
 
-Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network.
+A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671.
 
-Its August 3 scan counted 4,407 exposed Rockwell controllers worldwide, including 2,844 in the United States, but Forescout could not confirm any were compromised. That figure counts exposed
+"UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their
 
-[Read more](https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html)
+[Read more](https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html)
+
+---
+
+### 4. New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP
+
+WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an attacker-controlled page.
+
+Tracked as&nbsp;CVE-2026-64638&nbsp;(CVSS score: 8.9), the
+
+[Read more](https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html)
+
+---
+
+### 5. Growing Up The Hard Way
+
+Open Source had a great childhood.
+
+For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you need, pay me back whenever, no need to leave a name. It was idyllic. It was also, in retrospect, a little feral.
+
+Then,
+
+[Read more](https://thehackernews.com/2026/08/growing-up-hard-way.html)
 
 ---
