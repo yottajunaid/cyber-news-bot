@@ -1,57 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sat, 08 Aug 2026 09:34:30 +0530*
+*Last updated: Sun, 09 Aug 2026 09:04:36 +0530*
 
-### 1. Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer
+### 1. Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers
 
-A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.
+Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirmed closed.
 
-"These packages appear to use AI slop squatted, or randomly generated typo-squatting package names, but all of them deliver a powerful RAT and infostealer payload," OpenSourceMalware researcher Paul
+PromptArmor, an AI security firm, hid the instructions in content Rovo reads. It said an uploaded file was
 
-[Read more](https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html)
-
----
-
-### 2. ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets
-
-ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.
-
-The macOS-focused infection chain is designed to deliver a shell script that profiles the host and then fetches a macOS malware payload that's compatible with the computer's CPU architecture.
-
-"
-
-[Read more](https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html)
+[Read more](https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html)
 
 ---
 
-### 3. UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data
+### 2. New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens
 
-A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671.
+New research shows content inside an email can escape its message boundary and interfere with the webmail interface.
 
-"UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their
+Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI actions, and manipulate AI tools that read email.
 
-[Read more](https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html)
+PortSwigger researcher Gareth
 
----
-
-### 4. New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP
-
-WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an attacker-controlled page.
-
-Tracked as&nbsp;CVE-2026-64638&nbsp;(CVSS score: 8.9), the
-
-[Read more](https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html)
+[Read more](https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html)
 
 ---
 
-### 5. Growing Up The Hard Way
+### 3. Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication
 
-Open Source had a great childhood.
+Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.
 
-For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you need, pay me back whenever, no need to leave a name. It was idyllic. It was also, in retrospect, a little feral.
+The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain
 
-Then,
+[Read more](https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html)
 
-[Read more](https://thehackernews.com/2026/08/growing-up-hard-way.html)
+---
+
+### 4. N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist
+
+N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.
+
+"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve their attack techniques," the company said.
+
+"This is not a duplicate of our
+
+[Read more](https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html)
+
+---
+
+### 5. Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.
+
+The vulnerability, tracked as CVE-2026-8037 (CVSS score: 9.6), is a command injection flaw that could be weaponized to achieve arbitrary
+
+[Read more](https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html)
 
 ---
