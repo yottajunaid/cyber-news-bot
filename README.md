@@ -1,6 +1,6 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sun, 09 Aug 2026 09:04:36 +0530*
+*Last updated: Mon, 10 Aug 2026 09:55:45 +0530*
 
 ### 1. Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers
 
