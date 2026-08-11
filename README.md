@@ -1,57 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 10 Aug 2026 09:55:45 +0530*
+*Last updated: Tue, 11 Aug 2026 08:43:25 +0530*
 
-### 1. Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers
+### 1. Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development
 
-Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirmed closed.
+AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.
 
-PromptArmor, an AI security firm, hid the instructions in content Rovo reads. It said an uploaded file was
+When software output jumps 10 to 50 times, the problem is no longer just finding vulnerabilities. It is keeping security from becoming the bottleneck, or worse, losing control of what gets shipped.
 
-[Read more](https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html)
-
----
-
-### 2. New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens
-
-New research shows content inside an email can escape its message boundary and interfere with the webmail interface.
-
-Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI actions, and manipulate AI tools that read email.
-
-PortSwigger researcher Gareth
-
-[Read more](https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html)
+[Read more](https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html)
 
 ---
 
-### 3. Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication
+### 2. China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw
 
-Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.
+Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.
 
-The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain
+The use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said.
 
-[Read more](https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html)
+"StormEncryptor is written in C++ and appends the file name extension .encrypted
 
----
-
-### 4. N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist
-
-N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.
-
-"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve their attack techniques," the company said.
-
-"This is not a duplicate of our
-
-[Read more](https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html)
+[Read more](https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html)
 
 ---
 
-### 5. Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts
+### 3. ⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors
 
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.
+A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default.
 
-The vulnerability, tracked as CVE-2026-8037 (CVSS score: 9.6), is a command injection flaw that could be weaponized to achieve arbitrary
+That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what was supposed to stop them in the first place.
 
-[Read more](https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html)
+That’s only part of it. Here’s
+
+[Read more](https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html)
+
+---
+
+### 4. Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development
+
+North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware.
+
+South Korean security firm Genians says it uncovered the
+
+[Read more](https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html)
+
+---
+
+### 5. New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA
+
+Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on.
+
+Passkeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced passkey system from malware already on the victim's machine, and used a&nbsp;
+
+[Read more](https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html)
 
 ---
