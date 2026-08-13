@@ -1,57 +1,56 @@
 ## Latest Cybersecurity News
 
-*Last updated: Wed, 12 Aug 2026 10:01:05 +0530*
+*Last updated: Thu, 13 Aug 2026 09:12:17 +0530*
 
-### 1. Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack
+### 1. Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
 
-Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks.
+The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India.
 
-The bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already running on a machine can use it to escalate to SYSTEM. That patch goes out first.
+The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and
 
-The flaw is tracked as CVE-2026-68820 (CVSS score: 7.0) and is the only
-
-[Read more](https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html)
+[Read more](https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html)
 
 ---
 
-### 2. Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing
+### 2. 737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One
 
-Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks.
+A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them through a proxy infrastructure.
 
-The new version, tracked as Kimwolf v7, was discovered by Palo Alto Networks Unit 42 in February 2026.
+The extensions, published across at least 40 Chrome Web Store developer accounts, racked up 75,486 installs. Of those identified, 274 have been found to impersonate 66
 
-"Kimwolf v7 adds an HTTP/2-based
-
-[Read more](https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html)
+[Read more](https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html)
 
 ---
 
-### 3. Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client
+### 3. OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning
 
-Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's.
+A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords.
 
-The flaw sat in the annotation tool, the feature that lets participants draw and type on a shared screen, and it asked nothing of the victim beyond being in the meeting. No click, no download, no prompt, and nothing on screen to show it
+The weakness affected encrypted reasoning objects used by the providers' reasoning APIs, where a block created in one session could be replayed into another and, during testing,
 
-[Read more](https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html)
-
----
-
-### 4. Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands
-
-The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware.
-
-CERT-UA pinned the activity on a threat cluster it tracks as UAC-0145, which is a subgroup within Sandworm (aka APT44,
-
-[Read more](https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html)
+[Read more](https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html)
 
 ---
 
-### 5. Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE
+### 4. Enterprise Defenses Recovered at the Edge and Collapsed Inside
 
-Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.
+Enterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none.
 
-The flaw, tracked as&nbsp;CVE-2026-55040&nbsp;(CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Server 2016. Microsoft's
+According to Picus Labs' new Blue Report 2026, which measured more than 338 million real attack simulations across actual client production environments in the first half of 2026, defenses are having one of their strongest years yet. Average prevention effectiveness
 
-[Read more](https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html)
+[Read more](https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html)
+
+---
+
+### 5. Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws
+
+Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation.
+
+The most severe of the flaws are listed below -
+
+
+  CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could
+
+[Read more](https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html)
 
 ---
