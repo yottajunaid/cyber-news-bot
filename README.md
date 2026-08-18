@@ -1,55 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 13 Aug 2026 15:31:01 +0530*
+*Last updated: Tue, 18 Aug 2026 08:48:38 +0530*
 
-### 1. Attackers Exploit SharePoint Authentication Bypass After Public PoC Release
+### 1. Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects
 
-Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code.
+GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauthenticated attacker to remotely modify or delete public projects and user data.
 
-The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates.
+The flaw, tracked as CVE-2026-19478, has been rated Critical by GitLab and assigned a CVSS score of 9.4.
 
-"The authentication
+Released on
 
-[Read more](https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html)
-
----
-
-### 2. Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
-
-The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India.
-
-The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and
-
-[Read more](https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html)
+[Read more](https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html)
 
 ---
 
-### 3. 737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One
+### 2. Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection
 
-A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them through a proxy infrastructure.
+Cybersecurity researchers at Wiz&nbsp;have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public&nbsp;snowflakedb/snowflake-connector-net repository that it said could be exploited through a crafted GitHub issue to execute commands in a workflow containing internal Jira credentials.
 
-The extensions, published across at least 40 Chrome Web Store developer accounts, racked up 75,486 installs. Of those identified, 274 have been found to impersonate 66
+The issue was present in&nbsp;.github/workflows/jira_issue.yml, which ran when a
 
-[Read more](https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html)
-
----
-
-### 4. OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning
-
-A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords.
-
-The weakness affected encrypted reasoning objects used by the providers' reasoning APIs, where a block created in one session could be replayed into another and, during testing,
-
-[Read more](https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html)
+[Read more](https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html)
 
 ---
 
-### 5. Enterprise Defenses Recovered at the Edge and Collapsed Inside
+### 3. Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads
 
-Enterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none.
+A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites.
 
-According to Picus Labs' new Blue Report 2026, which measured more than 338 million real attack simulations across actual client production environments in the first half of 2026, defenses are having one of their strongest years yet. Average prevention effectiveness
+The vulnerability, tracked as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS scoring system. It was discovered and reported by a security researcher who goes by the online alias "
 
-[Read more](https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html)
+[Read more](https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html)
+
+---
+
+### 4. Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic
+
+Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Israel.
+
+Russian cybersecurity company Kaspersky said its ongoing monitoring of the threat activity cluster since December 2025 has led to the discovery of previously unreported components that expand the
+
+[Read more](https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html)
+
+---
+
+### 5. ⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More
+
+The expensive attacks are not always the clever ones.
+
+This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely.
+
+So, nothing magical. Just a
+
+[Read more](https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html)
 
 ---
