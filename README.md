@@ -1,53 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Wed, 19 Aug 2026 09:02:06 +0530*
+*Last updated: Thu, 20 Aug 2026 09:02:10 +0530*
 
-### 1. Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps
+### 1. Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second
 
-Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to the victim's Copilot session.
+Cybersecurity researchers have disclosed details of a&nbsp;remote Spectre attack&nbsp;against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021.
 
-The flaws, which the researchers collectively named CoSnitch, turn in part on an undocumented URL parameter that the assistant itself surfaced
+The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers,
 
-[Read more](https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html)
-
----
-
-### 2. Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets
-
-Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and industrial automation, are witnessing malicious scanning and exploitation efforts.
-
-According to independent reports from watchTowr and VulnCheck, the vulnerabilities in question are as follows -
-
-[Read more](https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html)
+[Read more](https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html)
 
 ---
 
-### 3. Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000
+### 2. OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior
 
-A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange for a fee ranging from $20,000 to $60,000.
+OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monitoring to avert another Hugging Face-like incident.
 
-"In these messages, the third-party offers to help the victim recover from ransomware attack. This immediately stands out as anomalous," GuidePoint Research
+"As models become more capable, the risks associated with developing and testing them internally also grow," the AI company
 
-[Read more](https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html)
-
----
-
-### 4. AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files
-
-Security researchers at Anthropic and Switzerland's EPFL have demonstrated that self-propagating payloads can spread from one artificial intelligence (AI) agent to the next through the editable system prompt files that autonomous agent harnesses use to carry state between sessions.
-
-The work, released as a preprint on August 10, 2026, tests the technique in a simulated six-agent coding
-
-[Read more](https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html)
+[Read more](https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html)
 
 ---
 
-### 5. TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks
+### 3. SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs
 
-Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT.
+A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia.
 
-"TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate its entire command-and-control infrastructure inside trusted Microsoft services," Ontinue said in a technical report shared with The Hacker News. "Tasking flows through SharePoint Online file
+The intrusion set makes use of seven remote access tool (RAT) families, five of which have never been previously documented: DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, and NodeEdgeRAT. SilkParasite, first discovered in late 2025, is assessed to be a
 
-[Read more](https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html)
+[Read more](https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html)
+
+---
+
+### 4. Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P
+
+Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique.
+
+The activity, codenamed Operation CameraSwarm, was reconstructed from a 407 MB exposed working directory containing 2,616 files
+
+[Read more](https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html)
+
+---
+
+### 5. Phishing 3.0: The Fight Moves to Agent Versus Agent
+
+Most email defenses still do the job they did a decade ago. Scan the message, look for something malicious, block it. That worked when the danger sat in the payload, a bad link or an attachment. It stopped working when the danger moved into the message's intent, and it is failing now that the sender is no longer a person.
+
+From Bad Content to Bad Intent to AI on Both Sides
+
+Phishing 1.0 was bad
+
+[Read more](https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html)
 
 ---
