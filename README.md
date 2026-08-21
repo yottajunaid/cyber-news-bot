@@ -1,55 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 20 Aug 2026 09:02:10 +0530*
+*Last updated: Fri, 21 Aug 2026 08:48:58 +0530*
 
-### 1. Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second
+### 1. Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads
 
-Cybersecurity researchers have disclosed details of a&nbsp;remote Spectre attack&nbsp;against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021.
+The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation.
 
-The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers,
+The affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9, all published from the same owner
 
-[Read more](https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html)
-
----
-
-### 2. OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior
-
-OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monitoring to avert another Hugging Face-like incident.
-
-"As models become more capable, the risks associated with developing and testing them internally also grow," the AI company
-
-[Read more](https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html)
+[Read more](https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html)
 
 ---
 
-### 3. SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs
+### 2. Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts
 
-A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia.
+Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S.
 
-The intrusion set makes use of seven remote access tool (RAT) families, five of which have never been previously documented: DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, and NodeEdgeRAT. SilkParasite, first discovered in late 2025, is assessed to be a
+These clusters include UNC6293, UNC7005, and UNC5976.
 
-[Read more](https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html)
+"These clusters engage in persistent, adaptive
 
----
-
-### 4. Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P
-
-Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique.
-
-The activity, codenamed Operation CameraSwarm, was reconstructed from a 407 MB exposed working directory containing 2,616 files
-
-[Read more](https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html)
+[Read more](https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html)
 
 ---
 
-### 5. Phishing 3.0: The Fight Moves to Agent Versus Agent
+### 3. ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More
 
-Most email defenses still do the job they did a decade ago. Scan the message, look for something malicious, block it. That worked when the danger sat in the payload, a bad link or an attachment. It stopped working when the danger moved into the message's intent, and it is failing now that the sender is no longer a person.
+A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.
 
-From Bad Content to Bad Intent to AI on Both Sides
+Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage.
 
-Phishing 1.0 was bad
+Nothing here needs
 
-[Read more](https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html)
+[Read more](https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html)
+
+---
+
+### 4. AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure
+
+The U.S. government on Wednesday warned of an "active threat" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts.
+
+The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability development using AI-generated scripts disguised as legitimate monitoring tools. That
+
+[Read more](https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html)
+
+---
+
+### 5. New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data
+
+Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page.
+
+The AI security company, which has codenamed the technique "Cryptographic Context Injection," said the
+
+[Read more](https://thehackernews.com/2026/08/new-cryptographic-context-injection.html)
 
 ---
