@@ -1,57 +1,53 @@
 ## Latest Cybersecurity News
 
-*Last updated: Fri, 21 Aug 2026 08:48:58 +0530*
+*Last updated: Sat, 22 Aug 2026 08:03:20 +0530*
 
-### 1. Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads
+### 1. 14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2
 
-The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation.
+Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence (AI)-powered Linux implant dubbed RedC2 4.0.
 
-The affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9, all published from the same owner
+"When the module loads, it locates the bundled binary, marks it executable, and launches it as a detached background process," TrendAI, Trend Micro's
 
-[Read more](https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html)
-
----
-
-### 2. Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts
-
-Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S.
-
-These clusters include UNC6293, UNC7005, and UNC5976.
-
-"These clusters engage in persistent, adaptive
-
-[Read more](https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html)
+[Read more](https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html)
 
 ---
 
-### 3. ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More
+### 2. Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot
 
-A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.
+Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Windows systems ranging from Windows 7 through Windows 11 25H2, with no software flaw exploited and no driver imported from outside the machine.
 
-Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage.
+The driver, BTR.sys (Boot Time Removal Tool), is a
 
-Nothing here needs
-
-[Read more](https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html)
+[Read more](https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html)
 
 ---
 
-### 4. AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure
+### 3. Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet
 
-The U.S. government on Wednesday warned of an "active threat" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts.
+Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun.
 
-The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability development using AI-generated scripts disguised as legitimate monitoring tools. That
+Kaspersky, which discovered the threat in June 2026, said the end goal of the malware is to serve a multi-stage downloader to enable ad fraud and creation of a proxy botnet.
 
-[Read more](https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html)
+"The malware spread through the built-in updaters of
+
+[Read more](https://thehackernews.com/2026/08/android-car-malware-spreads-through.html)
 
 ---
 
-### 5. New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data
+### 4. Wazuh and AI For Enhanced SOC Workflows
 
-Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page.
+Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate
 
-The AI security company, which has codenamed the technique "Cryptographic Context Injection," said the
+[Read more](https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html)
 
-[Read more](https://thehackernews.com/2026/08/new-cryptographic-context-injection.html)
+---
+
+### 5. Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0
+
+Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review.
+
+Four of the security vulnerabilities affect Crosswork Data Gateway, Crosswork Network Controller, and Crosswork Planning, regardless of the device configuration. A brief description of each of the flaws is below -
+
+[Read more](https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html)
 
 ---
