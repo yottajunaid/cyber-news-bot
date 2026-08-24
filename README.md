@@ -1,6 +1,6 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sun, 23 Aug 2026 07:22:53 +0530*
+*Last updated: Mon, 24 Aug 2026 09:13:38 +0530*
 
 ### 1. TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit
 
