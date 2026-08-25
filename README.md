@@ -1,53 +1,59 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 24 Aug 2026 09:13:38 +0530*
+*Last updated: Tue, 25 Aug 2026 09:19:15 +0530*
 
-### 1. TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit
+### 1. Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt
 
-The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country.
+If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work.
 
-As part of the settlement, the social media platform will pay $300 million immediately, and an additional $100 million "upon entry of an order vacating a prior consent decree entered against
+The harder part is what comes after. AI can also introduce open-source packages at a pace your security team was never built to handle. More dependencies mean more vulnerabilities to review, more remediation work, and a backlog that can
 
-[Read more](https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html)
-
----
-
-### 2. 14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2
-
-Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence (AI)-powered Linux implant dubbed RedC2 4.0.
-
-"When the module loads, it locates the bundled binary, marks it executable, and launches it as a detached background process," TrendAI, Trend Micro's
-
-[Read more](https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html)
+[Read more](https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html)
 
 ---
 
-### 3. Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot
+### 2. Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning
 
-Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Windows systems ranging from Windows 7 through Windows 11 25H2, with no software flaw exploited and no driver imported from outside the machine.
+Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients.
 
-The driver, BTR.sys (Boot Time Removal Tool), is a
+McAfee Labs said it detected and blocked more than 6,300 attempts to access malicious sites, adding that it found lookalike gaming websites designed to mimic legitimate projects, including branding, feature lists, FAQs,
 
-[Read more](https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html)
-
----
-
-### 4. Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet
-
-Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun.
-
-Kaspersky, which discovered the threat in June 2026, said the end goal of the malware is to serve a multi-stage downloader to enable ad fraud and creation of a proxy botnet.
-
-"The malware spread through the built-in updaters of
-
-[Read more](https://thehackernews.com/2026/08/android-car-malware-spreads-through.html)
+[Read more](https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html)
 
 ---
 
-### 5. Wazuh and AI For Enhanced SOC Workflows
+### 3. ⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More
 
-Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate
+A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet.
 
-[Read more](https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html)
+That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes exploit work cheaper, and researchers keep finding attacks that sound harder than they actually are.
+
+Plenty to clean up. Here’s the short version.
+
+⚡ Threat of the Week
+
+U.S.
+
+[Read more](https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html)
+
+---
+
+### 4. WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords
+
+Cybersecurity researchers have flagged two new malware families called  WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups.
+
+According to findings from Gen Digital, WordlistLoader is being used to deliver Amatera Stealer (aka ACR Stealer or AcridRain Stealer) via ClearFake campaigns, which employ the ClickFix (aka FakeCaptcha)
+
+[Read more](https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html)
+
+---
+
+### 5. Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account
+
+Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any user account by forcing a password reset.
+
+The vulnerability, assigned the CVE identifier&nbsp;CVE-2026-18963, is rated 9.1 on the CVSS scoring system by Red Hat, which acts as
+
+[Read more](https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html)
 
 ---
