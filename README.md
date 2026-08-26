@@ -1,59 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Tue, 25 Aug 2026 09:19:15 +0530*
+*Last updated: Wed, 26 Aug 2026 09:21:30 +0530*
 
-### 1. Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt
+### 1. U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches
 
-If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work.
+The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an "unprecedented, whole-of-government, economic campaign" against the nation and its enablers.
 
-The harder part is what comes after. AI can also introduce open-source packages at a pace your security team was never built to handle. More dependencies mean more vulnerabilities to review, more remediation work, and a backlog that can
+"We are launching an economic onslaught against Iran's financial connections around the globe. Our objective is to sever every economic lifeline that sustains this tyrannical regime
 
-[Read more](https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html)
-
----
-
-### 2. Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning
-
-Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients.
-
-McAfee Labs said it detected and blocked more than 6,300 attempts to access malicious sites, adding that it found lookalike gaming websites designed to mimic legitimate projects, including branding, feature lists, FAQs,
-
-[Read more](https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html)
+[Read more](https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html)
 
 ---
 
-### 3. ⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More
+### 2. A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw
 
-A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet.
+Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself.
 
-That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes exploit work cheaper, and researchers keep finding attacks that sound harder than they actually are.
+The findings were shared with The Hacker News ahead of publication, and the report says Oasis Security reported them to NVIDIA's Product Security Incident
 
-Plenty to clean up. Here’s the short version.
-
-⚡ Threat of the Week
-
-U.S.
-
-[Read more](https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html)
+[Read more](https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html)
 
 ---
 
-### 4. WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords
+### 3. WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android
 
-Cybersecurity researchers have flagged two new malware families called  WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups.
+Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accounts using the phishing-resistant method.
 
-According to findings from Gen Digital, WordlistLoader is being used to deliver Amatera Stealer (aka ACR Stealer or AcridRain Stealer) via ClearFake campaigns, which employ the ClickFix (aka FakeCaptcha)
+The tech giant said more than 1 billion people use a passkey to log into WhatsApp. Support for passkeys was first introduced in Android in October 2023,
 
-[Read more](https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html)
+[Read more](https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html)
 
 ---
 
-### 5. Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account
+### 4. Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode
 
-Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any user account by forcing a password reset.
+Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted notebook, according to VulnCheck's CVE Numbering Authority (CNA) record.
 
-The vulnerability, assigned the CVE identifier&nbsp;CVE-2026-18963, is rated 9.1 on the CVSS scoring system by Red Hat, which acts as
+The CNA record says the command can run as a local subprocess when the notebook is opened in edit mode.
 
-[Read more](https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html)
+The vulnerability, tracked
+
+[Read more](https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html)
+
+---
+
+### 5. Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows
+
+Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and bypassing two-factor authentication.
+
+According to ANY.RUN research, 48% of targeted email addresses were potentially compromised. Most of the affected companies are US-based.
+
+Mirage2FA Campaign
+
+[Read more](https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html)
 
 ---
