@@ -1,8 +1,31 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sat, 29 Aug 2026 14:36:18 +0530*
+*Last updated: Sun, 30 Aug 2026 13:08:12 +0530*
 
-### 1. Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network
+### 1. TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor
+
+Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell.
+
+"While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to Windows Terminal or PowerShell instead, increasing the likelihood that complex
+
+[Read more](https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html)
+
+---
+
+### 2. Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE
+
+Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution.
+
+The vulnerabilities, according to Wordfence and Patchstack, are listed below -
+
+
+  CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in
+
+[Read more](https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html)
+
+---
+
+### 3. Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network
 
 Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortionists' demands.
 
@@ -12,7 +35,7 @@ The same statement disclosed that forensic work had found further data outflows 
 
 ---
 
-### 2. Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable
+### 4. Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable
 
 Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026.
 
@@ -24,34 +47,12 @@ Affected versions are &lt; 0.6.2 and &gt;=
 
 ---
 
-### 3. Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication
+### 5. Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication
 
 Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional hardening.
 
 "This vulnerability gives an unauthenticated attacker remote control over PaperCut's trusted configuration, which could be used to execute arbitrary Java code inside the application's
 
 [Read more](https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html)
-
----
-
-### 4. Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers
-
-Google on Thursday announced new network security protections in Android 17 to bolster connection privacy, address cellular vulnerabilities, and safeguard the privacy of users' home networks.
-
-Topping the list is support for Encrypted Client Hello (ECH), a privacy standard that prevents networks from eavesdropping on which websites a user is visiting.
-
-"This new privacy standard works in tandem
-
-[Read more](https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html)
-
----
-
-### 5. ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports that a Chinese-speaking threat actor weaponized the vulnerability to target a nuclear research body in the Philippines.
-
-The vulnerability, tracked as CVE-2023-49105 (CVSS score: 9.8), is a case of
-
-[Read more](https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html)
 
 ---
