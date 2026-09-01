@@ -1,56 +1,59 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 31 Aug 2026 14:54:28 +0530*
+*Last updated: Tue, 01 Sep 2026 13:14:48 +0530*
 
-### 1. China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs
+### 1. Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis
 
-A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control System (TACACS) servers, and Linux management hosts used to route, authenticate, and manage high-value networks.
+Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interfere with artificial intelligence (AI)-assisted analysis.
 
-Sygnia, the incident response firm that investigated the intrusion, said the actor
+The idea, ESET said in a series of posts on X, is to deliberately trip a large language model's (LLM) safety mechanisms and prevent its
 
-[Read more](https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html)
-
----
-
-### 2. DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims
-
-The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now pointing out that they were among those targeted.
-
-Last week, the DoJ said the National Aeronautics and Space Administration, Federal Reserve, Department of Energy, Department of Justice, Department
-
-[Read more](https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html)
+[Read more](https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html)
 
 ---
 
-### 3. TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor
+### 2. Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity
 
-Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell.
+Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.
 
-"While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to Windows Terminal or PowerShell instead, increasing the likelihood that complex
-
-[Read more](https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html)
-
----
-
-### 4. Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE
-
-Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution.
-
-The vulnerabilities, according to Wordfence and Patchstack, are listed below -
+The vulnerabilities in question are listed below -
 
 
-  CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in
+  CVE-2026-0768 (CVSS score: 9.8) - A lack of proper validation of a user-supplied input vulnerability that could be exploited to execute arbitrary Python code in the context of the root user.
+  CVE-2026-66066 aka
 
-[Read more](https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html)
+[Read more](https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html)
 
 ---
 
-### 5. Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network
+### 3. North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales
 
-Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortionists' demands.
+Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities beyond the information technology (IT) sector, with recent investigations identifying suspected workers employed in sales and marketing and the medical profession.
 
-The same statement disclosed that forensic work had found further data outflows in the portfolio of the Senate Department for Mobility, Transport, Climate Protection and Environment
+The ongoing insider threat is part of what has been described as the IT worker scheme,
 
-[Read more](https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html)
+[Read more](https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html)
+
+---
+
+### 4. ⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More
+
+The boring parts caused most of the trouble.
+
+A router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent decided its assigned task was optional.
+
+Elsewhere, fake apps, helpful support calls, cheap banking kits, exposed systems, and weak defaults kept
+
+[Read more](https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html)
+
+---
+
+### 5. ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions
+
+The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antivirus exclusions.
+
+Russian cybersecurity vendor Kaspersky said the attackers built the disguise around QN Wallpaper, a genuine Chinese desktop-wallpaper tool
+
+[Read more](https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html)
 
 ---
