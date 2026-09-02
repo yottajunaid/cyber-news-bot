@@ -1,59 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Tue, 01 Sep 2026 13:14:48 +0530*
+*Last updated: Wed, 02 Sep 2026 12:20:15 +0530*
 
-### 1. Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis
+### 1. Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another
 
-Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interfere with artificial intelligence (AI)-assisted analysis.
+Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker-supplied ARM shellcode on live hardware.
 
-The idea, ESET said in a series of posts on X, is to deliberately trip a large language model's (LLM) safety mechanisms and prevent its
+The exploit targets&nbsp;CVE-2021-31886, a stack-based buffer overflow in the Nucleus FTP server's handling of the&nbsp;USER&nbsp;command
 
-[Read more](https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html)
-
----
-
-### 2. Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity
-
-Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.
-
-The vulnerabilities in question are listed below -
-
-
-  CVE-2026-0768 (CVSS score: 9.8) - A lack of proper validation of a user-supplied input vulnerability that could be exploited to execute arbitrary Python code in the context of the root user.
-  CVE-2026-66066 aka
-
-[Read more](https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html)
+[Read more](https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html)
 
 ---
 
-### 3. North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales
+### 2. Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials
 
-Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities beyond the information technology (IT) sector, with recent investigations identifying suspected workers employed in sales and marketing and the medical profession.
+Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution.
 
-The ongoing insider threat is part of what has been described as the IT worker scheme,
+The vulnerability in question is CVE-2026-9586 (CVSS score: 9.3), a critical unauthenticated SQL injection vulnerability in Sangoma Switchvox SMB Edition 8.3 (104997) that can allow attackers to remotely execute arbitrary code as
 
-[Read more](https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html)
-
----
-
-### 4. ⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More
-
-The boring parts caused most of the trouble.
-
-A router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent decided its assigned task was optional.
-
-Elsewhere, fake apps, helpful support calls, cheap banking kits, exposed systems, and weak defaults kept
-
-[Read more](https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html)
+[Read more](https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html)
 
 ---
 
-### 5. ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions
+### 3. Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads
 
-The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antivirus exclusions.
+The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated law enforcement operation.
 
-Russian cybersecurity vendor Kaspersky said the attackers built the disguise around QN Wallpaper, a genuine Chinese desktop-wallpaper tool
+The effort was undertaken on August 31, 2026, by authorities from the U.S., Bulgaria, Hungary, and Romania, in collaboration with private industry partners CrowdStrike and the Shadowserver Foundation. To that
 
-[Read more](https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html)
+[Read more](https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html)
+
+---
+
+### 4. Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure
+
+Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr.
+
+The vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of authentication bypass that could lead to administrative access in Artifactory.
+
+"JFrog Artifactory contains an authentication weakness that, under default
+
+[Read more](https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html)
+
+---
+
+### 5. Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems
+
+Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024.
+
+Google Threat Intelligence Group (GTIG) and Mandiant teams described the threat actor as "specializing in manipulating payment systems and banking software in Brazil to conduct fraudulent transfers." The adversary
+
+[Read more](https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html)
 
 ---
