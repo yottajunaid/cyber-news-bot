@@ -1,56 +1,61 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 03 Sep 2026 12:48:24 +0530*
+*Last updated: Fri, 04 Sep 2026 12:55:41 +0530*
 
-### 1. Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon
+### 1. Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws
 
-The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank, a privilege escalation flaw impacting Crowdstrike Falcon.
+Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws.
 
-"FalconFlank is a 0day privilege escalation that abuses the office malicious macros remediation in CrowdStrike Falcon Sensor," the researcher said in a GitHub README file, adding
+The fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0. The streaming media service did not elaborate on what those issues are, but said CVE identifiers have been requested for them.
 
-[Read more](https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html)
+"We recommend all server owners and Desktop users
 
----
-
-### 2. CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog after they landed in attackers' crosshairs.
-
-The vulnerabilities are as follows -
-
-
-  CVE-2026-83548 (CVSS score: 10.0) - A server-side request forgery vulnerability in SonicWall SMA 1000 Appliances that could allow a remote unauthenticated
-
-[Read more](https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html)
+[Read more](https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html)
 
 ---
 
-### 3. Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs
+### 2. Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day
 
-Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new initiative called the Fairwind Program.
+Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild.
 
-"The Fairwind Program gives high-priority defenders (like governments, healthcare providers, and telecommunications services) early access to advanced models that help them
+The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome's JavaScript and WebAssembly engine.
 
-[Read more](https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html)
+"Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote
 
----
-
-### 4. Fake Software Installers Disable Windows Update and Weaken Microsoft Defender
-
-An active malware campaign is using bogus software-download websites to impersonate trusted vendors and distribute malicious installers.
-
-"The campaign has targeted users looking to download popular software and has resulted in compromises across multiple organizations and industries, primarily affecting China-based operations of multinational organizations and Chinese-speaking users," Microsoft
-
-[Read more](https://thehackernews.com/2026/09/fake-software-installers-disable.html)
+[Read more](https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html)
 
 ---
 
-### 5. Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code
+### 3. GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests
 
-Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, four of them still unpatched at publication.
+OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the "world's most intelligent and aligned model."
 
-The command executes as the user, outside the agent's sandbox and without an approval prompt, and exploitation requires the repository to arrive
+The development comes days after the artificial intelligence (AI) company said the model had reached the "Critical" cybersecurity capability threshold under its Preparedness Framework.
 
-[Read more](https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html)
+"Astra is state-of-the-art on computer use, browsing, software engineering,
+
+[Read more](https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html)
+
+---
+
+### 4. ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories
+
+The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door?
+
+That idea runs through this edition. Attackers use real tools, fake login pages, old account links, and software guides that point to unsafe downloads. One wrong letter in a web address can be enough.
+
+There is also
+
+[Read more](https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html)
+
+---
+
+### 5. Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root
+
+Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root, alongside an IOS XR hardening release bundling 7 umbrella CVEs, 2 of which are rated 9.8, with no workaround for any IOS XR version.
+
+The Nexus vulnerability, tracked as CVE-2026-20212 (CVSS score: 9.8), is
+
+[Read more](https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html)
 
 ---
