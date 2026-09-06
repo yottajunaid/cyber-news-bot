@@ -1,58 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sat, 05 Sep 2026 12:06:18 +0530*
+*Last updated: Sun, 06 Sep 2026 13:00:52 +0530*
 
-### 1. Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities
+### 1. Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores
 
-Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe.
+Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec said in an&nbsp;advisory published on September 5.
 
-The Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an authentication bypass and remote code execution chain – to conduct command execution and reconnaissance, as well as
+Sansec, which discovered the flaw and named it StyleSmuggler, said attacks started on September 4. "Sansec is
 
-[Read more](https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html)
-
----
-
-### 2. Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters
-
-Microsoft is alerting of a "high-volume phishing campaign" that's using invisible Unicode tag characters to bypass email filters.
-
-"Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure words such as 'funding' to prevent email filters from parsing them," the Microsoft Security Research team said.
-
-The
-
-[Read more](https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html)
+[Read more](https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html)
 
 ---
 
-### 3. PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution
+### 2. Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials
 
-PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.
+JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment.
 
-The flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical decoding was introduced in PostgreSQL 9.4 in 2014. Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are
+"Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions," JetBrains said.
 
-[Read more](https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html)
-
----
-
-### 4. New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic
-
-A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors.
-
-The attackers named the implant ted in debug strings left in the binary. It is not a HAProxy vulnerability, and installing it requires code execution on the host and
-
-[Read more](https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html)
+[Read more](https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html)
 
 ---
 
-### 5. Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws
+### 3. Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code
 
-Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence.
+Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions.
 
-The vulnerabilities in question are -
+The vulnerability, tracked as CVE-2026-59346 (CVSS score: 9.3), is an integer-overflow vulnerability that a local attacker with elevated privileges can exploit to run arbitrary code.
 
+"A
 
-  CVE-2026-14894 (CVSS score: 9.8) - A missing file type validation vulnerability in Super Forms – Drag &amp; Drop Form Builder that allows unauthenticated attackers to upload files of any type, including
+[Read more](https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html)
 
-[Read more](https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html)
+---
+
+### 4. Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted
+
+Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk.
+
+The exposed information includes customer names, email addresses, phone numbers, shipping addresses, and order numbers between November 2019 and August 2021. The breach does not affect the security of the company's hardware wallets
+
+[Read more](https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html)
+
+---
+
+### 5. Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel
+
+A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool answers to a timed web task and pass around a way out of their sandbox.
+
+The activity was concentrated on DSEwiki, a German software developer wiki that runs
+
+[Read more](https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html)
 
 ---
