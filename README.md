@@ -1,55 +1,53 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 07 Sep 2026 12:56:39 +0530*
+*Last updated: Tue, 08 Sep 2026 12:39:05 +0530*
 
-### 1. JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies
+### 1. Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing
 
-Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities.
+Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with third-parties.
 
-"The payloads are protected with javascript-obfuscator, using multiple techniques including RC4-protected strings, control-flow flattening, proxy functions, and operation wrappers," Check Point Research said in a
+Grindr, which is the largest LGBTQ+ dating app, was sued in April 2024, accusing it of violating U.K. privacy laws by sharing sensitive data for commercial purposes such as advertising.
 
-[Read more](https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html)
-
----
-
-### 2. Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication
-
-Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, according to&nbsp;CERT Polska's attack warning, published on September 5.
-
-Successful attacks date to at least September 2. The Hacker News’s September 6 review of the warning found no victim count or
-
-[Read more](https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html)
+[Read more](https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html)
 
 ---
 
-### 3. Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner
+### 2. PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution
 
-Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself.
+Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser.
 
-One of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner.
+"Requiring prior administrative or code execution access, its installer injects the extension directly into Chrome/Edge profiles, bypassing Web Store checks and user prompts by forging Chromium's own Secure Preferences
 
-The company named the four programs ProManager, WinUpdate, SoftManager, and
-
-[Read more](https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html)
+[Read more](https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html)
 
 ---
 
-### 4. Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores
+### 3. Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks
 
-Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec said in an&nbsp;advisory published on September 5.
+Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy sign-ins.
 
-Sansec, which discovered the flaw and named it StyleSmuggler, said attacks started on September 4. "Sansec is
+The activity, which mainly singles out directors, vice presidents, and other executive staff
 
-[Read more](https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html)
+[Read more](https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html)
 
 ---
 
-### 5. Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials
+### 4. ⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More
 
-JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment.
+Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, but an annoying one if that was a precaution you were counting on.
 
-"Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions," JetBrains said.
+Elsewhere, a trusted software source delivered code that stole credentials, and a protocol designed for secure network management
 
-[Read more](https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html)
+[Read more](https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html)
+
+---
+
+### 5. Your Cloud Security Checklist Doesn't Work the Way You Think It Does
+
+If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000 organizations across AWS, Azure, and Google Cloud and found that risk profiles across providers have almost nothing in common. Here’s what the data looks like.
+
+How risk differs across cloud providers
+
+[Read more](https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html)
 
 ---
