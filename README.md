@@ -1,57 +1,53 @@
 ## Latest Cybersecurity News
 
-*Last updated: Wed, 09 Sep 2026 10:41:00 +0530*
+*Last updated: Thu, 10 Sep 2026 13:14:02 +0530*
 
-### 1. Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days
+### 1. Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example "sk-1234" Admin Key
 
-Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been actively exploited in the wild.
+Nearly one in ten of the internet-facing LiteLLM servers that&nbsp;Wiz Research&nbsp;scanned in February accepted&nbsp;sk-1234, the example admin key in LiteLLM's own setup guide.
 
-These include 723 flaws in Windows, 111 in Office and Office 2016, 62 in SQL, and 22 in Developer Tools. Of these, over 110 shortcomings have been assigned a critical severity rating.
+LiteLLM is an open-source AI gateway, the software a company puts between its applications and the model providers it pays for. That key is the gateway's administrator credential.
 
-[Read more](https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html)
+Anyone who holds it can read every
 
----
-
-### 2. N-able N-central Pre-Auth RCE Flaw Exploited in the Wild
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by September 11, 2026.
-
-The vulnerability in question is CVE-2026-86218 (CVSS score: 10.0), which has been described as a
-
-[Read more](https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html)
+[Read more](https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html)
 
 ---
 
-### 3. Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution
+### 2. Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6
 
-A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026.
+Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the security risks posed by autonomous AI agents.
 
-Cybersecurity company CrowdStrike is tracking the Brazil-based activity cluster under the name Slim Spider.
+The AI company said the incident dates back to January 2026 and involved an early version of Claude Opus 4.6 that breached "
 
-"The adversary demonstrates deep operational knowledge of Brazilian financial infrastructure, including the instant payment
-
-[Read more](https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html)
+[Read more](https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html)
 
 ---
 
-### 4. Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC
+### 3. U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto
 
-Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6,&nbsp;returned 3,400 of it&nbsp;the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back.
+The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including seizing Telegram channels used to run the service, confiscating two cryptocurrency wallets, and deploying the Scam Center Strike Force to Madagascar to help disrupt 13 scam compounds run by Chinese organized crime
 
-Liquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC. The network is still paused, so holders cannot turn that token back into bitcoin.
-
-The 3,400 bitcoin was sent to a&
-
-[Read more](https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html)
+[Read more](https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html)
 
 ---
 
-### 5. ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account
+### 4. Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week
 
-Check Point Research said in a&nbsp;report published today&nbsp;that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual.
+Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome.
 
-In the company's proof of concept, that hidden work read data from the user's connected Gmail account and passed it to a second ChatGPT account through a hidden channel
+The first in-the-wild use of BlueMoon has been attributed to the China-aligned state-sponsored group tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo,
 
-[Read more](https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html)
+[Read more](https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html)
+
+---
+
+### 5. Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA
+
+Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create "stolen keys" that grant illicit access to tools from model providers like Google, Anthropic, and others.&nbsp;
+
+Information stealers like Lumma Stealer or Vidar are equipped to harvest a wide range of data from compromised systems. This can include credential, session tokens, and API
+
+[Read more](https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html)
 
 ---
