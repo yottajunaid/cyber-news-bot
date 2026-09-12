@@ -1,55 +1,53 @@
 ## Latest Cybersecurity News
 
-*Last updated: Fri, 11 Sep 2026 12:08:52 +0530*
+*Last updated: Sat, 12 Sep 2026 12:44:42 +0530*
 
-### 1. Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors
+### 1. GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure
 
-Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security company Wiz&nbsp;said in a report.
+GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure.
 
-Wiz saw the attacks between August 15 and September 8. JFrog had fixed both flaws before then, so only servers that had not been updated were open to them.
+The vulnerability in question is CVE-2026-85706 (CVSS score: 10.0), a path traversal issue in the repository commits API that could allow an unauthenticated user to read arbitrary files from the GitLab server under
 
-[Read more](https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html)
-
----
-
-### 2. China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor
-
-A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital said in&nbsp;research published Thursday.
-
-The attack started with a crafted link and ended with the attacker able to do anything the logged-in user could do. Tencent, which owns
-
-[Read more](https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html)
+[Read more](https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html)
 
 ---
 
-### 3. PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws
+### 2. Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks
 
-PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation.
+Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax.
 
-The software development company said PaperCut NG/MF versions 26.0.5, 25.0.13 and 24.1.10 are now available for customers to download.
+Knowledge distillation by itself is a legitimate training method. It refers to a machine learning technique where a large, powerful AI model assumes the role of a "teacher" to
 
-"These are Regular Maintenance Releases (MR) that
-
-[Read more](https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html)
+[Read more](https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html)
 
 ---
 
-### 4. Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware
+### 3. Claude Used to Automate Exploitation and Data Theft Across Multiple Victims
 
-Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities.
+Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026.
 
-The attacks leverage CVE-2026-20079 (CVSS score: 10.0), an authentication bypass vulnerability in the web interface of FMC software that could allow an unauthenticated, remote attacker to bypass
+The threat actors, which the artificial intelligence (AI) company has branded Generative Threat Groups (GTGs), span state-sponsored groups, financially motivated criminals, commercial
 
-[Read more](https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html)
+[Read more](https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html)
 
 ---
 
-### 5. ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories
+### 4. Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection
 
-A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?”
+Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve.
 
-An extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old bug still gets results. An exposed system stays exposed. A package looks useful right up until it isn’t. Different stories, same basic problem: the path in was often already
+The operation has been attributed to a cyber espionage group it calls GTG-20006 (where "GTG" stands for Generative Threat Group), which aligns with broader reporting linking the cluster to Midnight
 
-[Read more](https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html)
+[Read more](https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html)
+
+---
+
+### 5. Your Critical Vulnerabilities Might Not Be Your Biggest Risk
+
+Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compromise.
+
+A critical vulnerability may look alarming on a scanner report, but if it sits behind strong segmentation, identity controls, and other defenses that prevent an attacker
+
+[Read more](https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html)
 
 ---
