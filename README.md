@@ -1,8 +1,39 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sat, 12 Sep 2026 12:44:42 +0530*
+*Last updated: Sun, 13 Sep 2026 13:38:49 +0530*
 
-### 1. GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure
+### 1. CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.
+
+Details of the vulnerabilities are as follows -
+
+
+  CVE-2026-42016 (CVSS score: 8.1) - An incorrect authorization
+
+[Read more](https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html)
+
+---
+
+### 2. When the Whole Company Adopts AI: What It Does to Your SOC
+
+Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks against AI, but the ordinary, everyday footprint of an organization using it, from developers running coding agents and non-technical staff signing consumer AI tools into corporate
+
+[Read more](https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html)
+
+---
+
+### 3. OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers
+
+The "major malicious attack" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx.
+
+On May 12, Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, disclosed details of a coordinated cyber attack that targeted the package manager for the
+
+[Read more](https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html)
+
+---
+
+### 4. GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure
 
 GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure.
 
@@ -12,42 +43,12 @@ The vulnerability in question is CVE-2026-85706 (CVSS score: 10.0), a path trave
 
 ---
 
-### 2. Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks
+### 5. Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks
 
 Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax.
 
 Knowledge distillation by itself is a legitimate training method. It refers to a machine learning technique where a large, powerful AI model assumes the role of a "teacher" to
 
 [Read more](https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html)
-
----
-
-### 3. Claude Used to Automate Exploitation and Data Theft Across Multiple Victims
-
-Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026.
-
-The threat actors, which the artificial intelligence (AI) company has branded Generative Threat Groups (GTGs), span state-sponsored groups, financially motivated criminals, commercial
-
-[Read more](https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html)
-
----
-
-### 4. Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection
-
-Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve.
-
-The operation has been attributed to a cyber espionage group it calls GTG-20006 (where "GTG" stands for Generative Threat Group), which aligns with broader reporting linking the cluster to Midnight
-
-[Read more](https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html)
-
----
-
-### 5. Your Critical Vulnerabilities Might Not Be Your Biggest Risk
-
-Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compromise.
-
-A critical vulnerability may look alarming on a scanner report, but if it sits behind strong segmentation, identity controls, and other defenses that prevent an attacker
-
-[Read more](https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html)
 
 ---
