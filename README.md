@@ -1,57 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 14 Sep 2026 14:00:10 +0530*
+*Last updated: Tue, 15 Sep 2026 12:45:14 +0530*
 
-### 1. Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users
+### 1. LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server
 
-A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service.
+A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September 14.
 
-The extension, named "Twitch Enhanced Viewer | JeetBot," lists HISHIMIRO/jeetbot.cc as its developer and has the following identifiers on the Google Chrome Web Store and Mozilla Firefox Add-Ons store -
+On such servers, many customers' sites run on a single machine, and an attacker with one of those hosting accounts could exploit the flaw to access or alter other sites and the server itself,
 
-
-  Chrome -
-
-[Read more](https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html)
+[Read more](https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html)
 
 ---
 
-### 2. Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data
+### 2. Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution
 
-Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments.
+Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.
 
-The first campaign, per the tech giant, involved sending over a million scam emails between August 3 and 5, 2026, by masquerading as chief executive officers
+The vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a maximum of 10.0. It has been described as a case of insufficient validation in the email parsing logic that could allow an unauthenticated, remote attacker
 
-[Read more](https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html)
-
----
-
-### 3. CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.
-
-Details of the vulnerabilities are as follows -
-
-
-  CVE-2026-42016 (CVSS score: 8.1) - An incorrect authorization
-
-[Read more](https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html)
+[Read more](https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html)
 
 ---
 
-### 4. When the Whole Company Adopts AI: What It Does to Your SOC
+### 3. China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE
 
-Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks against AI, but the ordinary, everyday footprint of an organization using it, from developers running coding agents and non-technical staff signing consumer AI tools into corporate
+A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE.
 
-[Read more](https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html)
+Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026.
+
+"The
+
+[Read more](https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html)
 
 ---
 
-### 5. OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers
+### 4. New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing
 
-The "major malicious attack" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx.
+Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encrypted data as if it were current.
 
-On May 12, Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, disclosed details of a coordinated cyber attack that targeted the package manager for the
+The attack requires an attacker who already controls the server's software and can briefly access the machine to insert a small circuit
 
-[Read more](https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html)
+[Read more](https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html)
+
+---
+
+### 5. 3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials
+
+An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said.
+
+The company uncovered the intrusion by examining a server the attacker had left open on the internet, which held the attacker's own tools and a list of
+
+[Read more](https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html)
 
 ---
