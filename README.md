@@ -1,55 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Tue, 15 Sep 2026 12:45:14 +0530*
+*Last updated: Wed, 16 Sep 2026 13:14:36 +0530*
 
-### 1. LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server
+### 1. Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells
 
-A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September 14.
+Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.
 
-On such servers, many customers' sites run on a single machine, and an attacker with one of those hosting accounts could exploit the flaw to access or alter other sites and the server itself,
+"This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors, and achieve remote code execution," Wordfence said.
 
-[Read more](https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html)
+The WordPress security company said it has blocked over
 
----
-
-### 2. Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution
-
-Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.
-
-The vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a maximum of 10.0. It has been described as a case of insufficient validation in the email parsing logic that could allow an unauthenticated, remote attacker
-
-[Read more](https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html)
+[Read more](https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html)
 
 ---
 
-### 3. China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE
+### 2. Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens
 
-A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE.
+A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.
 
-Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026.
+The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account takeover. Hacktron Team has been credited with discovering and reporting the flaw.
 
-"The
+"JWT authentication
 
-[Read more](https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html)
-
----
-
-### 4. New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing
-
-Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encrypted data as if it were current.
-
-The attack requires an attacker who already controls the server's software and can briefly access the machine to insert a small circuit
-
-[Read more](https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html)
+[Read more](https://thehackernews.com/2026/09/active-exploitation-attempts-target.html)
 
 ---
 
-### 5. 3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials
+### 3. KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens
 
-An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said.
+Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN.
 
-The company uncovered the intrusion by examining a server the attacker had left open on the internet, which held the attacker's own tools and a list of
+Elastic Security Labs is tracking the activity under the moniker REF9334. Active since at least May 2025, the threat actor has used lures that impersonate a dozen Brazilian banks and install a malicious browser extension on Google Chrome and
 
-[Read more](https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html)
+[Read more](https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html)
+
+---
+
+### 4. Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists
+
+Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around the world.
+
+The malware is controlled via the Telegram messaging app and can copy a target's emails and chat messages, take screenshots, and activate the microphone to record
+
+[Read more](https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html)
+
+---
+
+### 5. BambooToken Malware Uses MQTT to Control Windows and Linux Systems
+
+Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems.
+
+The emerging malware family, codenamed BambooToken, is assessed to be active since at least February 2023 and put to use in attacks targeting organizations across Asia and South America.
+
+[Read more](https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html)
 
 ---
