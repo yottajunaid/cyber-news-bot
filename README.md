@@ -1,57 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Wed, 16 Sep 2026 13:14:36 +0530*
+*Last updated: Thu, 17 Sep 2026 06:20:18 +0530*
 
-### 1. Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells
+### 1. Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution
 
-Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.
+A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation.
 
-"This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors, and achieve remote code execution," Wordfence said.
+The vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded
 
-The WordPress security company said it has blocked over
-
-[Read more](https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html)
+[Read more](https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html)
 
 ---
 
-### 2. Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens
+### 2. Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers
 
-A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.
+Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.
 
-The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account takeover. Hacktron Team has been credited with discovering and reporting the flaw.
+The cybersecurity vendor said it has identified attacks mounted by NightEagle (aka APT-Q-95), a threat actor known to be active since at least 2023, that involve new techniques for persistence and lateral movement.
 
-"JWT authentication
-
-[Read more](https://thehackernews.com/2026/09/active-exploitation-attempts-target.html)
+[Read more](https://thehackernews.com/2026/09/three-threat-groups-target-russian.html)
 
 ---
 
-### 3. KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens
+### 3. One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude
 
-Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN.
+Security researchers at&nbsp;Forever Security&nbsp;have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome, Perplexity Comet, Microsoft Edge, Opera Neon and the Claude in Chrome extension.
 
-Elastic Security Labs is tracking the activity under the moniker REF9334. Active since at least May 2025, the threat actor has used lures that impersonate a dozen Brazilian banks and install a malicious browser extension on Google Chrome and
+Once the extension was installed, it could access each product's built-in AI with a single click. On Comet, Edge,
 
-[Read more](https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html)
-
----
-
-### 4. Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists
-
-Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around the world.
-
-The malware is controlled via the Telegram messaging app and can copy a target's emails and chat messages, take screenshots, and activate the microphone to record
-
-[Read more](https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html)
+[Read more](https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html)
 
 ---
 
-### 5. BambooToken Malware Uses MQTT to Control Windows and Linux Systems
+### 4. Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories
 
-Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems.
+Mandiant says an attacker hijacked an active AI coding-assistant session at an unnamed software-as-a-service provider and later spread&nbsp;Shai-Hulud&nbsp;across about 100 internal code repositories.
 
-The emerging malware family, codenamed BambooToken, is assessed to be active since at least February 2023 and put to use in attacks targeting organizations across Asia and South America.
+Before the repository spread, the assistant recommended software that the attacker had poisoned, and the recommendation was accepted. The worm stole repository secrets and source code for the
 
-[Read more](https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html)
+[Read more](https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html)
+
+---
+
+### 5. Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix
+
+Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week.
+
+The attack needs code already running on the machine as a normal user, so it does not work over the network. JFrog says the fix is in Parallels Desktop 27, a version that Intel Macs cannot install.
+
+Yuval Moravchick, who leads
+
+[Read more](https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html)
 
 ---
