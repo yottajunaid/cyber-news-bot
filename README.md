@@ -1,55 +1,56 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 17 Sep 2026 06:20:18 +0530*
+*Last updated: Fri, 18 Sep 2026 12:35:20 +0530*
 
-### 1. Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution
+### 1. RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall
 
-A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation.
+Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices.
 
-The vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded
 
-[Read more](https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html)
+"Distributed primarily via targeted smishing (SMS/text phishing) and malvertising campaigns leading to deceptive third-party download portals, RatHat uses
 
----
-
-### 2. Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers
-
-Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.
-
-The cybersecurity vendor said it has identified attacks mounted by NightEagle (aka APT-Q-95), a threat actor known to be active since at least 2023, that involve new techniques for persistence and lateral movement.
-
-[Read more](https://thehackernews.com/2026/09/three-threat-groups-target-russian.html)
+[Read more](https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html)
 
 ---
 
-### 3. One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude
+### 2. Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root
 
-Security researchers at&nbsp;Forever Security&nbsp;have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome, Perplexity Comet, Microsoft Edge, Opera Neon and the Claude in Chrome extension.
+A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network.
 
-Once the extension was installed, it could access each product's built-in AI with a single click. On Comet, Edge,
+The Security Management Server is the system that controls firewall policy and administrator access. Check Point has released a fix through its LivePatch update channel and says it has no indication that the flaw
 
-[Read more](https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html)
-
----
-
-### 4. Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories
-
-Mandiant says an attacker hijacked an active AI coding-assistant session at an unnamed software-as-a-service provider and later spread&nbsp;Shai-Hulud&nbsp;across about 100 internal code repositories.
-
-Before the repository spread, the assistant recommended software that the attacker had poisoned, and the recommendation was accepted. The worm stole repository secrets and source code for the
-
-[Read more](https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html)
+[Read more](https://thehackernews.com/2026/09/critical-check-point-management-server.html)
 
 ---
 
-### 5. Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix
+### 3. ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories
 
-Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week.
+Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them.
 
-The attack needs code already running on the machine as a normal user, so it does not work over the network. JFrog says the fix is in Parallels Desktop 27, a version that Intel Macs cannot install.
+This week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse what was already lying around. Both work often enough.
 
-Yuval Moravchick, who leads
+So the threat landscape is not getting cleaner. It is just
 
-[Read more](https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html)
+[Read more](https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html)
+
+---
+
+### 4. Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files
+
+Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a&nbsp;security announcement&nbsp;on September 15.
+
+The escape runs with the rights of the host account that runs the virtual machine. The flaw,&nbsp;CVE-2026-77179, is rated Critical, affects versions
+
+[Read more](https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html)
+
+---
+
+### 5. Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords
+
+The Iran-linked "hacktivist" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE.
+
+"HEAVYGRAM offers builtin commands supporting remote command execution, system, network and process information discovery, data and Telegram session files exfiltration, screenshot capture, DLL sideloading,
+
+[Read more](https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html)
 
 ---
