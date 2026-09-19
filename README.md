@@ -1,56 +1,60 @@
 ## Latest Cybersecurity News
 
-*Last updated: Fri, 18 Sep 2026 12:35:20 +0530*
+*Last updated: Sat, 19 Sep 2026 13:12:19 +0530*
 
-### 1. RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall
+### 1. Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild
 
-Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices.
+A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet.
 
+The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauthenticated remote code execution.
 
-"Distributed primarily via targeted smishing (SMS/text phishing) and malvertising campaigns leading to deceptive third-party download portals, RatHat uses
+"Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that allows remote
 
-[Read more](https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html)
-
----
-
-### 2. Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root
-
-A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network.
-
-The Security Management Server is the system that controls firewall policy and administrator access. Check Point has released a fix through its LivePatch update channel and says it has no indication that the flaw
-
-[Read more](https://thehackernews.com/2026/09/critical-check-point-management-server.html)
+[Read more](https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html)
 
 ---
 
-### 3. ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories
+### 2. Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up
 
-Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them.
+Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal.
 
-This week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse what was already lying around. Both work often enough.
+The incidents occurred in May 2026 as part of a test run conducted by Israeli company Irregular. The evaluation partner was also involved in similar hacks disclosed
 
-So the threat landscape is not getting cleaner. It is just
-
-[Read more](https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html)
+[Read more](https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html)
 
 ---
 
-### 4. Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files
+### 3. CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories
 
-Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a&nbsp;security announcement&nbsp;on September 15.
+An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec&nbsp;said on September 18.
 
-The escape runs with the rights of the host account that runs the virtual machine. The flaw,&nbsp;CVE-2026-77179, is rated Critical, affects versions
+The French security company had kept his GitHub access open. CrowdSec says his laptop was compromised in May's&nbsp;supply chain attack on TanStack, in which malicious versions of TanStack's npm packages stole credentials from
 
-[Read more](https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html)
+[Read more](https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html)
 
 ---
 
-### 5. Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords
+### 4. CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild
 
-The Iran-linked "hacktivist" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE.
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
 
-"HEAVYGRAM offers builtin commands supporting remote command execution, system, network and process information discovery, data and Telegram session files exfiltration, screenshot capture, DLL sideloading,
+The vulnerabilities are listed below -
 
-[Read more](https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html)
+
+  CVE-2025-39682 (CVSS score: 9.8) - An improper check for unusual or exceptional conditions vulnerability in the TLS receive path
+
+[Read more](https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html)
+
+---
+
+### 5. Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root
+
+A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.
+
+Kernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the exploit code is now public, and any machine still running an older kernel should be updated.
+
+The flaws
+
+[Read more](https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html)
 
 ---
