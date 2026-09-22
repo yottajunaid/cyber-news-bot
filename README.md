@@ -1,55 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 21 Sep 2026 13:57:32 +0530*
+*Last updated: Tue, 22 Sep 2026 13:52:29 +0530*
 
-### 1. ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure
+### 1. SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing
 
-Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript.
+The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.
 
-"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software," Blackpoint Adversary Pursuit Group (APG)
+"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols," Trellix researchers
 
-[Read more](https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html)
-
----
-
-### 2. Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors
-
-The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based "much smaller organization" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks.
-
-Cybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple
-
-[Read more](https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html)
+[Read more](https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html)
 
 ---
 
-### 3. Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws
+### 2. One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor
 
-Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.
+Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21.
 
-The chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system.
+It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.
 
-This was security research,
+The flaw is in
 
-[Read more](https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html)
-
----
-
-### 4. Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar
-
-A new CVE drops. Your scanner finds it. The severity score looks ugly.
-
-But that still does not answer the question that matters: Can it actually be exploited in your environment?
-
-Mythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is
-
-[Read more](https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html)
+[Read more](https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html)
 
 ---
 
-### 5. Identity Visibility in 2026: The Foundation of Identity Security
+### 3. WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session
 
-Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in
+A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.
 
-[Read more](https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html)
+WordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and dubbed "Comment2Shell," on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. The
+
+[Read more](https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html)
+
+---
+
+### 4. Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
+
+The vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating
+
+[Read more](https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html)
+
+---
+
+### 5. Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR
+
+A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17.
+
+Microsoft's own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers
+
+[Read more](https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html)
 
 ---
