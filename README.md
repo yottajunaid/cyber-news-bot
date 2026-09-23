@@ -1,55 +1,53 @@
 ## Latest Cybersecurity News
 
-*Last updated: Tue, 22 Sep 2026 13:52:29 +0530*
+*Last updated: Wed, 23 Sep 2026 13:06:26 +0530*
 
-### 1. SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing
+### 1. F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers
 
-The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.
+Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says.
 
-"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols," Trellix researchers
+The flaw,&nbsp;CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in&nbsp;an advisory&nbsp;on September 22 and has released engineering hotfixes.
 
-[Read more](https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html)
-
----
-
-### 2. One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor
-
-Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21.
-
-It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.
-
-The flaw is in
-
-[Read more](https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html)
+[Read more](https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html)
 
 ---
 
-### 3. WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session
+### 2. Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware
 
-A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.
+A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites.
 
-WordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and dubbed "Comment2Shell," on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. The
+The attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break
 
-[Read more](https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html)
-
----
-
-### 4. Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
-
-The vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating
-
-[Read more](https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html)
+[Read more](https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html)
 
 ---
 
-### 5. Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR
+### 3. Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input
 
-A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17.
+A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said.
 
-Microsoft's own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers
+The risk applies when an app puts values an attacker controls, such as text read from the request URL, into the image. Vercel, which develops Next.js,&nbsp;fixed the flaw&nbsp;on September 22 in version
 
-[Read more](https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html)
+[Read more](https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html)
+
+---
+
+### 4. ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants
+
+The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency.
+
+"We have compromised the FBI. We hold very sensitive data on almost ALL FBI Agents and individuals who filed an application with the FBI for a job," the group said in a statement posted on their dark
+
+[Read more](https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html)
+
+---
+
+### 5. Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
+
+Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said.
+
+The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point
+
+[Read more](https://thehackernews.com/2026/09/check-point-warns-of-management-server.html)
 
 ---
