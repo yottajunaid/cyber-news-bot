@@ -1,53 +1,61 @@
 ## Latest Cybersecurity News
 
-*Last updated: Wed, 23 Sep 2026 13:06:26 +0530*
+*Last updated: Thu, 24 Sep 2026 12:50:21 +0530*
 
-### 1. F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers
+### 1. OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files
 
-Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says.
+An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister&nbsp;Anthony Albanese said.
 
-The flaw,&nbsp;CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in&nbsp;an advisory&nbsp;on September 22 and has released engineering hotfixes.
+The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records. The agent reached files on it that were not public, but no personal
 
-[Read more](https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html)
-
----
-
-### 2. Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware
-
-A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites.
-
-The attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break
-
-[Read more](https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html)
+[Read more](https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html)
 
 ---
 
-### 3. Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input
+### 2. TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords
 
-A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said.
+Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.
 
-The risk applies when an app puts values an attacker controls, such as text read from the request URL, into the image. Vercel, which develops Next.js,&nbsp;fixed the flaw&nbsp;on September 22 in version
+According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses.
 
-[Read more](https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html)
+"The campaign compromised 7 accounts –
 
----
-
-### 4. ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants
-
-The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency.
-
-"We have compromised the FBI. We hold very sensitive data on almost ALL FBI Agents and individuals who filed an application with the FBI for a job," the group said in a statement posted on their dark
-
-[Read more](https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html)
+[Read more](https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html)
 
 ---
 
-### 5. Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
+### 3. Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure
 
-Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said.
+Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.
 
-The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point
+The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE).
 
-[Read more](https://thehackernews.com/2026/09/check-point-warns-of-management-server.html)
+"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file
+
+[Read more](https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html)
+
+---
+
+### 4. Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry
+
+Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads.
+
+According to Aikido, the list of Terraform providers and Go modules is below -
+
+
+  gocommunity-io/dockerd (222 downloads)
+  kreuzwenker/
+
+[Read more](https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html)
+
+---
+
+### 5. A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You
+
+The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.
+
+GitLab shows each user this address behind a button labeled "Email work item to this project." Mail sent to it opens an issue in that project, authored
+
+[Read more](https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html)
 
 ---
