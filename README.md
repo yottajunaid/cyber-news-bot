@@ -1,61 +1,56 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 24 Sep 2026 12:50:21 +0530*
+*Last updated: Fri, 25 Sep 2026 13:30:09 +0530*
 
-### 1. OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files
+### 1. Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data
 
-An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister&nbsp;Anthony Albanese said.
+A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday.
 
-The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records. The agent reached files on it that were not public, but no personal
+The data came from disk space that earlier containers had used and given up, not from any live workload, and an attacker could not choose whose data they got,&nbsp;according to Cloudflare. The company
 
-[Read more](https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html)
-
----
-
-### 2. TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords
-
-Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.
-
-According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses.
-
-"The campaign compromised 7 accounts –
-
-[Read more](https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html)
+[Read more](https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html)
 
 ---
 
-### 3. Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure
+### 2. WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV
 
-Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.
 
-The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE).
-
-"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file
-
-[Read more](https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html)
-
----
-
-### 4. Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry
-
-Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads.
-
-According to Aikido, the list of Terraform providers and Go modules is below -
+The vulnerabilities are listed below -
 
 
-  gocommunity-io/dockerd (222 downloads)
-  kreuzwenker/
+  CVE-2026-5430 (CVS score: 9.8) - A path traversal vulnerability in&nbsp; WSO2 API Control Plane,
 
-[Read more](https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html)
+[Read more](https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html)
 
 ---
 
-### 5. A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You
+### 3. Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions
 
-The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.
+A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats,&nbsp;chained two flaws in OnePlus's own software&nbsp;to gain root access, the highest level of control over an Android phone.
 
-GitLab shows each user this address behind a button labeled "Email work item to this project." Mail sent to it opens an issue in that project, authored
+OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not
 
-[Read more](https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html)
+[Read more](https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html)
+
+---
+
+### 4. ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories
+
+This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before.
+
+That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just
+
+[Read more](https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html)
+
+---
+
+### 5. Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content
+
+The "third-party[.]com" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users.
+
+"third-party[.]com has been a generic documentation placeholder for years, the same role example.com plays," Manifold Security's Head of Research, Ax Sharma, said. "Unlike 'example[.]com,' third-party[.]com
+
+[Read more](https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html)
 
 ---
