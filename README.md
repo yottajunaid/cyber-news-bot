@@ -1,63 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sat, 26 Sep 2026 11:18:28 +0530*
+*Last updated: Sun, 27 Sep 2026 14:37:04 +0530*
 
-### 1. Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware
+### 1. Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation
 
-Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign.
+Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26.
 
-The affected GitHub Actions are listed below -
+Citrix has not confirmed the flaws or published a fix. Some administrators say they have taken appliances offline rather than wait for one to be available.
 
+NetScaler ADC and
 
-  actions-cool/issues-helper
-  actions-cool/maintain-one-comment
-
-Visiting either of the repositories now shows the message: "Access to this
-
-[Read more](https://thehackernews.com/2026/09/compromised-github-actions-came-back.html)
+[Read more](https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html)
 
 ---
 
-### 2. PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence
+### 2. Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials
 
-Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-side decryption chain.
+The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex.
 
-The latest artifacts, per Jamf Threat Labs, continue to rely on the same JavaScript for Automation (JXA) dropper mechanism, but modify the lure and the delivery method.
+The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users.
 
-"Where earlier variants embedded their payload key material
+"The attack chain begins with a fake CAPTCHA page and
 
-[Read more](https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html)
-
----
-
-### 3. The SOC Doesn't Need to Start Over with Every Alert
-
-Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry.
-
-The routine version looks like this. An attacker lands on a low-privilege cloud account, and the first try at privilege escalation goes nowhere. That dead end used to cost hours of documentation reading,
-
-[Read more](https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html)
+[Read more](https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html)
 
 ---
 
-### 4. Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise
+### 3. Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells
 
-Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets.&nbsp;
+Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally.
 
-"At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized transfers involving a limited number of hot wallets," BitGet said in a post shared on X. "Bitget's cold wallets and the overwhelming majority of platform assets remain
+The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution.
 
-[Read more](https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html)
+The vulnerability was first exploited as a zero-day
+
+[Read more](https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html)
 
 ---
 
-### 5. Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild
+### 4. Zero Trust for AI Agents Starts With Fixing Zero Visibility
 
-The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild.
+The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely discussed intrusion at Hugging Face during an evaluation of OpenAI agents, has spurred organizations to
 
-The vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1.
+[Read more](https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html)
 
-The issue stems from a preg_replace() backslash
+---
 
-[Read more](https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html)
+### 5. Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link
+
+Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site.
+
+The cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE identifier, carries a CVSS score of 8.8 out of 10.0. It only affects versions
+
+[Read more](https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html)
 
 ---
