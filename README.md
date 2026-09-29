@@ -1,62 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 28 Sep 2026 14:41:07 +0530*
+*Last updated: Tue, 29 Sep 2026 15:12:46 +0530*
 
-### 1. JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources
+### 1. Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation
 
-The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals.
+Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group.
 
-Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours.
+"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters," the Politie Landelijke Opsporing en Interventies said in an X post Monday.
 
-"The destructive operations
+Police said the individual is expected to appear before the
 
-[Read more](https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html)
-
----
-
-### 2. CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.
-
-The vulnerabilities are listed below -
-
-
-  CVE-2026-88771 (CVSS score: 9.5) - An improper input validation vulnerability that could allow an unauthenticated attacker to
-
-[Read more](https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html)
+[Read more](https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html)
 
 ---
 
-### 3. Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation
+### 2. Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials
 
-Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration.
+A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory.
 
-The bulletin came a day after security firm watchTowr
+Affected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and
 
-[Read more](https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html)
-
----
-
-### 4. Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials
-
-The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex.
-
-The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users.
-
-"The attack chain begins with a fake CAPTCHA page and
-
-[Read more](https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html)
+[Read more](https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html)
 
 ---
 
-### 5. Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells
+### 3. OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions
 
-Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally.
+OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audits.
 
-The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution.
+The development was first reported by The Wall Street Journal. The move "marks a rare case of a major AI developer ditching a new release because of safety concerns," the news publication said.
 
-The vulnerability was first exploited as a zero-day
+[Read more](https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html)
 
-[Read more](https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html)
+---
+
+### 4. OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot
+
+OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loophole in its internet-access restrictions.
+
+"An agent attempting to complete a search-based training task queried a public chatbot service through a gap in our internet-access restrictions:
+
+[Read more](https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html)
+
+---
+
+### 5. Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks
+
+Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks.
+
+The vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics component that could lead to arbitrary code execution when processing a maliciously crafted file.
+
+The iPhone maker said the
+
+[Read more](https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html)
 
 ---
