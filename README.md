@@ -1,57 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Tue, 29 Sep 2026 15:12:46 +0530*
+*Last updated: Wed, 30 Sep 2026 14:20:43 +0530*
 
-### 1. Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation
+### 1. Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT
 
-Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group.
+Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe.
 
-"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters," the Politie Landelijke Opsporing en Interventies said in an X post Monday.
+The activity, observed by Mandiant Consulting and Google Threat Intelligence Group (GTIG) in September 2026, has targeted government, financial services, technology, education, and legal and professional
 
-Police said the individual is expected to appear before the
-
-[Read more](https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html)
+[Read more](https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html)
 
 ---
 
-### 2. Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials
+### 2. OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted
 
-A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory.
+A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,&nbsp;OpenSSL said&nbsp;on September 29 as it released fixes.
 
-Affected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and
+DTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the timer expires. The leak or crash can happen when such a resend starts while a larger handshake message is stuck part-way
 
-[Read more](https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html)
-
----
-
-### 3. OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions
-
-OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audits.
-
-The development was first reported by The Wall Street Journal. The move "marks a rare case of a major AI developer ditching a new release because of safety concerns," the news publication said.
-
-[Read more](https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html)
+[Read more](https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html)
 
 ---
 
-### 4. OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot
+### 3. Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution
 
-OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loophole in its internet-access restrictions.
+Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild.
 
-"An agent attempting to complete a search-based training task queried a public chatbot service through a gap in our internet-access restrictions:
+The vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as a memory overflow bug in the Datagram Transport Layer Security (DTLS) protocol handling that's rooted in the NetScaler
 
-[Read more](https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html)
+[Read more](https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html)
 
 ---
 
-### 5. Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks
+### 4. French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks
 
-Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks.
+An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July.
 
-The vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics component that could lead to arbitrary code execution when processing a maliciously crafted file.
+Neither the tax administration nor France's national cybersecurity agency saw the data leave. The attack was not sophisticated, the agency, ANSSI, says in a&nbsp;report&nbsp;(in French) published on Tuesday: it worked because of weak
 
-The iPhone maker said the
+[Read more](https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html)
 
-[Read more](https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html)
+---
+
+### 5. New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses
+
+A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors.
+
+The new Spectre v2 variant has been codenamed Branch Target Reuse (BTR).
+
+"The key insight is that, while modern CPUs
+
+[Read more](https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html)
 
 ---
