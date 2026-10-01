@@ -1,55 +1,53 @@
 ## Latest Cybersecurity News
 
-*Last updated: Wed, 30 Sep 2026 14:20:43 +0530*
+*Last updated: Thu, 01 Oct 2026 15:30:30 +0530*
 
-### 1. Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT
+### 1. OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates
 
-Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe.
+OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models.
 
-The activity, observed by Mandiant Consulting and Google Threat Intelligence Group (GTIG) in September 2026, has targeted government, financial services, technology, education, and legal and professional
+A "core cluster of the activity," going back to the first week of July, has been attributed to individuals associated with Moonshot AI, a Chinese AI company based in Beijing. It did not cite any
 
-[Read more](https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html)
-
----
-
-### 2. OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted
-
-A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,&nbsp;OpenSSL said&nbsp;on September 29 as it released fixes.
-
-DTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the timer expires. The leak or crash can happen when such a resend starts while a larger handshake message is stuck part-way
-
-[Read more](https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html)
+[Read more](https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html)
 
 ---
 
-### 3. Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution
+### 2. CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV
 
-Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild.
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active exploitation.
 
-The vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as a memory overflow bug in the Datagram Transport Layer Security (DTLS) protocol handling that's rooted in the NetScaler
+The vulnerability, tracked as CVE-2026-76504 (CVSS score: 9.8), could allow an unauthenticated, remote attacker to access an affected system with
 
-[Read more](https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html)
-
----
-
-### 4. French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks
-
-An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July.
-
-Neither the tax administration nor France's national cybersecurity agency saw the data leave. The attack was not sophisticated, the agency, ANSSI, says in a&nbsp;report&nbsp;(in French) published on Tuesday: it worked because of weak
-
-[Read more](https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html)
+[Read more](https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html)
 
 ---
 
-### 5. New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses
+### 3. Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version
 
-A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors.
+Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program.
 
-The new Spectre v2 variant has been codenamed Branch Target Reuse (BTR).
+"It delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense," Koray Kavukcuoglu,
 
-"The key insight is that, while modern CPUs
+[Read more](https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html)
 
-[Read more](https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html)
+---
+
+### 4. Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path
+
+Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals.
+
+The trigger is a malicious PDF with a crafted embedded font that crashes unpatched iPhones and Macs. The code causes a crash, not an execution error. Turning the memory corruption into a working
+
+[Read more](https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html)
+
+---
+
+### 5. Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft
+
+Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist.
+
+"Their investigation identified malicious activity involving third-party security products, including a zero-day vulnerability, and recovered a customized tool used by the attacker
+
+[Read more](https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html)
 
 ---
