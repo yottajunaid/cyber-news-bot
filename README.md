@@ -1,57 +1,62 @@
 ## Latest Cybersecurity News
 
-*Last updated: Fri, 02 Oct 2026 14:31:11 +0530*
+*Last updated: Sat, 03 Oct 2026 14:20:15 +0530*
 
-### 1. Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools
+### 1. GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers
 
-Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled.
+A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab&nbsp;said in an advisory.
 
-With malicious Android applications abusing the API serving as the main conduit for malware and financial fraud, the tech giant said the move would block a major attack pathway. Advanced Protection is a
+The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The flaw is fixed in gateway versions 19.2.4, 19.3.2, and 19.4.1.
 
-[Read more](https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html)
+The flaw
 
----
-
-### 2. Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.
-
-The vulnerability, tracked as CVE-2026-104286 (CVSS score: 9.8), allows unauthenticated attackers to write arbitrary files on the underlying system.
-
-"An improper
-
-[Read more](https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html)
+[Read more](https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html)
 
 ---
 
-### 3. Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers
+### 2. Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign
 
-Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid.
+Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor.
 
-The 16-year-old was one of 3 people arrested on September 30, when police also took control of that site.
+The activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar, involves the deployment of a previously undocumented backdoor codenamed Antino. Cisco Talos is tracking the cluster
 
-Investigators identified him as KillSec's suspected
-
-[Read more](https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html)
+[Read more](https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html)
 
 ---
 
-### 4. ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
+### 3. Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
 
-This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years.
+Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems.
 
-That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can
+The vulnerabilities are listed below -
 
-[Read more](https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html)
+
+  CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an
+
+[Read more](https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html)
 
 ---
 
-### 5. WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory
+### 4. OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling
 
-Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again.
+OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported.
 
-The backdoor has been codenamed SC after the "SC_" markers present in the injected content. Sucuri has described the malware as a "self-healing mesh" that's
+"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information," a spokesperson for the company was quoted as saying. "Our investigation confirmed that these
 
-[Read more](https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html)
+[Read more](https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html)
+
+---
+
+### 5. Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report
+
+The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a spreadsheet to reconcile them. Someone else is turning that spreadsheet into slides.
+
+Then a board member asks three questions:
+
+
+  How secure is the organization, overall?
+  What is
+
+[Read more](https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html)
 
 ---
