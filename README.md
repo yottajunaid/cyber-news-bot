@@ -1,62 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sat, 03 Oct 2026 14:20:15 +0530*
+*Last updated: Sun, 04 Oct 2026 14:29:59 +0530*
 
-### 1. GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers
+### 1. ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members
 
-A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab&nbsp;said in an advisory.
+A suspected member of the ShinyHunters digital extortion group, who goes by the online alias "Rey," has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter.
 
-The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The flaw is fixed in gateway versions 19.2.4, 19.3.2, and 19.4.1.
+Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into custody on September 29, 2026, cooperating with the U.S. Federal Bureau of Investigation (FBI) and
 
-The flaw
-
-[Read more](https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html)
+[Read more](https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html)
 
 ---
 
-### 2. Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign
+### 2. China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing
 
-Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor.
+A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations.
 
-The activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar, involves the deployment of a previously undocumented backdoor codenamed Antino. Cisco Talos is tracking the cluster
+The campaigns have impersonated prominent economists and AI policymakers, as well as a prominent Anthropic employee, to single out an AI policy expert at a
 
-[Read more](https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html)
-
----
-
-### 3. Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
-
-Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems.
-
-The vulnerabilities are listed below -
-
-
-  CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an
-
-[Read more](https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html)
+[Read more](https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html)
 
 ---
 
-### 4. OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling
+### 3. MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics
 
-OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported.
+The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service.
 
-"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information," a spokesperson for the company was quoted as saying. "Our investigation confirmed that these
+In a "Security Service Espionage Alert" issued on September 30, 2026, MI5 said the "primary purpose of the China General Technology Research Institute (CGTRI) 中国通用技术研究院 is to fund research that
 
-[Read more](https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html)
+[Read more](https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html)
 
 ---
 
-### 5. Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report
+### 4. Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware
 
-The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a spreadsheet to reconcile them. Someone else is turning that spreadsheet into slides.
+The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries.
 
-Then a board member asks three questions:
+The activity, observed by the Symantec and Carbon Black Threat Hunter Team, has hit critical infrastructure, government, and education organizations.
 
+"In the
 
-  How secure is the organization, overall?
-  What is
+[Read more](https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html)
 
-[Read more](https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html)
+---
+
+### 5. The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations
+
+Featuring:
+
+Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward continuous visibility, control, and the ability to respond to risk at scale.
+
+This report examines how core areas of
+
+[Read more](https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html)
 
 ---
