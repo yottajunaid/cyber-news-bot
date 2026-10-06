@@ -1,55 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 05 Oct 2026 15:48:16 +0530*
+*Last updated: Tue, 06 Oct 2026 14:14:07 +0530*
 
-### 1. Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access
+### 1. Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports
 
-Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents.
+Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software.
 
-"Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems—including files, mail, messages, and even browsing history – without users' full knowledge
+The change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers there for a reward. Reports about supply chain compromises are still accepted, and reports filed before October 1 are
 
-[Read more](https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html)
-
----
-
-### 2. Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE
-
-A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck.
-
-The vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a predictable key, which an attacker can then use to gain unauthorized access and
-
-[Read more](https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html)
+[Read more](https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html)
 
 ---
 
-### 3. New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline
+### 2. Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products
 
-Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks.
+A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory.
 
-The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0.
+The attacker must already know a file's exact name and path and cannot list what the directory holds. Atlassian&nbsp;disclosed the flaw, CVE-2026-21589, on October 5, rated it 9.3 out of 10, and
 
-"CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to
-
-[Read more](https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html)
+[Read more](https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html)
 
 ---
 
-### 4. ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members
+### 3. FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach
 
-A suspected member of the ShinyHunters digital extortion group, who goes by the online alias "Rey," has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter.
+The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.
 
-Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into custody on September 29, 2026, and cooperating with the U.S. Federal Bureau of Investigation (FBI)
+That's according to a report from Reuters, citing two sources familiar with the matter.
 
-[Read more](https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html)
+"To date, our review has determined that the incident occurred as the result of a security failure ​
+
+[Read more](https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html)
 
 ---
 
-### 5. China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing
+### 4. Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account
 
-A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations.
+Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry&nbsp;said on October 5.
 
-The campaigns have impersonated prominent economists and AI policymakers, as well as a prominent Anthropic employee, to single out an AI policy expert at a
+They used a private Danish company's lawful right to look up records in the Central Person Register (CPR). The ministry has told people never to
 
-[Read more](https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html)
+[Read more](https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html)
+
+---
+
+### 5. ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits
+
+A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache.
+
+"Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script payload into the browser cache disguised as a PNG file," the Microsoft Threat Intelligence team said in a post on X.
+
+[Read more](https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html)
 
 ---
