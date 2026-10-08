@@ -1,53 +1,53 @@
 ## Latest Cybersecurity News
 
-*Last updated: Wed, 07 Oct 2026 13:55:08 +0530*
+*Last updated: Thu, 08 Oct 2026 15:24:22 +0530*
 
-### 1. Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws
+### 1. Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia
 
-Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified software vulnerabilities between April and July 2026.
+Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself.
 
-The company said it also found an additional
+ANY.RUN has identified Wazza, a new phishkit targeting banking, manufacturing, and government organizations across the US, Europe
 
-[Read more](https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html)
-
----
-
-### 2. 100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer
-
-The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer).
-
-The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the
-
-[Read more](https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html)
+[Read more](https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html)
 
 ---
 
-### 3. Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes
+### 2. 16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases
 
-Cybersecurity researchers have disclosed details of a "human-operated phishing platform" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus.
+Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys.
 
-The products, which claim to offer campaign optimization, spend audits, and business-account connections, are designed with one goal in
+"The extensions masquerade as wallet portals, desktop utilities, and browser tools, but their code intercepts recovery phrases and private keys during wallet import flows and attempts to send those secrets to
 
-[Read more](https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html)
-
----
-
-### 4. Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan
-
-Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection.
-
-Threat actors are known to name their malicious software after a legitimate operating system component or a process as a defense evasion measure. By borrowing the name of a real binary, it may
-
-[Read more](https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html)
+[Read more](https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html)
 
 ---
 
-### 5. LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings
+### 3. U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks
 
-A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before it runs a macro.
+The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks known as HAFNIUM.
 
-The attack works only when the program's Java support is enabled. So far, it has only been shown as a proof of concept, and there are no reports of its use in
+The reward is for information leading to his identification or location, the news outlet&nbsp;NTD reported&nbsp;this week, citing a notice
 
-[Read more](https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html)
+[Read more](https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html)
+
+---
+
+### 4. MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data
+
+The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data.
+
+Zohar Pinhasi (aka Zack Silver and Zack Green) has been charged with two counts of wire fraud and one count of wire
+
+[Read more](https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html)
+
+---
+
+### 5. Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm
+
+The npm package known as "tensorlake," a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack.
+
+The malicious version 0.5.144 "contains obfuscated malware that harvests credentials, exfiltrates secrets, establishes persistence, and executes remotely supplied code," Socket said
+
+[Read more](https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html)
 
 ---
