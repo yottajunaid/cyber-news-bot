@@ -1,53 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 08 Oct 2026 15:24:22 +0530*
+*Last updated: Fri, 09 Oct 2026 14:18:27 +0530*
 
-### 1. Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia
+### 1. GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys
 
-Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself.
+A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then take that address over.
 
-ANY.RUN has identified Wazza, a new phishkit targeting banking, manufacturing, and government organizations across the US, Europe
+Searchlight Cyber, which&nbsp;disclosed the flaw&nbsp;on October 8, says an attacker who recovers the key can redirect the site's visitors to a copy of the site they control.
 
-[Read more](https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html)
-
----
-
-### 2. 16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases
-
-Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys.
-
-"The extensions masquerade as wallet portals, desktop utilities, and browser tools, but their code intercepts recovery phrases and private keys during wallet import flows and attempts to send those secrets to
-
-[Read more](https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html)
+[Read more](https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html)
 
 ---
 
-### 3. U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks
+### 2. Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own
 
-The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks known as HAFNIUM.
+Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits and passes the flaws to the vendors. One of the three Pixel exploits earned Ikotas Labs $300,000, the contest's top prize, and made the team the overall winner.
 
-The reward is for information leading to his identification or location, the news outlet&nbsp;NTD reported&nbsp;this week, citing a notice
+Trend Micro's Zero
 
-[Read more](https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html)
-
----
-
-### 4. MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data
-
-The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data.
-
-Zohar Pinhasi (aka Zack Silver and Zack Green) has been charged with two counts of wire fraud and one count of wire
-
-[Read more](https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html)
+[Read more](https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html)
 
 ---
 
-### 5. Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm
+### 3. Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments
 
-The npm package known as "tensorlake," a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack.
+Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions.
 
-The malicious version 0.5.144 "contains obfuscated malware that harvests credentials, exfiltrates secrets, establishes persistence, and executes remotely supplied code," Socket said
+"CVE-2026-107406 is a memory overflow vulnerability that may lead to remote code execution or denial-of-service under specific configuration conditions," Citrix said.
 
-[Read more](https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html)
+The vulnerability
+
+[Read more](https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html)
+
+---
+
+### 4. FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions
+
+The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon.
+
+To that end, the agencies seized several domains and blocked access to platforms that were used to scan, and in some cases infiltrate, U.S. critical infrastructure. The list of seized
+
+[Read more](https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html)
+
+---
+
+### 5. FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails
+
+Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8.
+
+The company, Integrity Technology Group, has been sanctioned by the U.S. and the UK. The hackers scanned websites for flaws using a tool containing more
+
+[Read more](https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html)
 
 ---
