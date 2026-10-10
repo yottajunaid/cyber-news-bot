@@ -1,55 +1,60 @@
 ## Latest Cybersecurity News
 
-*Last updated: Fri, 09 Oct 2026 14:18:27 +0530*
+*Last updated: Sat, 10 Oct 2026 14:27:39 +0530*
 
-### 1. GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys
+### 1. Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws
 
-A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then take that address over.
+Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites.
 
-Searchlight Cyber, which&nbsp;disclosed the flaw&nbsp;on October 8, says an attacker who recovers the key can redirect the site's visitors to a copy of the site they control.
+The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude -
 
-[Read more](https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html)
 
----
+  Claude Mythos
 
-### 2. Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own
-
-Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits and passes the flaws to the vendors. One of the three Pixel exploits earned Ikotas Labs $300,000, the contest's top prize, and made the team the overall winner.
-
-Trend Micro's Zero
-
-[Read more](https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html)
+[Read more](https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html)
 
 ---
 
-### 3. Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments
+### 2. Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories
 
-Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions.
+Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories.
 
-"CVE-2026-107406 is a memory overflow vulnerability that may lead to remote code execution or denial-of-service under specific configuration conditions," Citrix said.
+"Using the account of Takashi Kitao, author of the 18,400-star game engine pyxel, the attacker pushed a malicious workflow to 27 repositories starting at 13:20 UTC," StepSecurity
 
-The vulnerability
-
-[Read more](https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html)
+[Read more](https://thehackernews.com/2026/10/credential-stealing-github-actions.html)
 
 ---
 
-### 4. FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions
+### 3. FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack
 
-The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon.
+The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X.
 
-To that end, the agencies seized several domains and blocked access to platforms that were used to scan, and in some cases infiltrate, U.S. critical infrastructure. The list of seized
+ShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stolen sensitive data on almost all FBI agents and job applicants. The FBI has not named the suspect, and no charges have been made public.
 
-[Read more](https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html)
+The
+
+[Read more](https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html)
 
 ---
 
-### 5. FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails
+### 4. P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands
 
-Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8.
+Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.
 
-The company, Integrity Technology Group, has been sanctioned by the U.S. and the UK. The hackers scanned websites for flaws using a tool containing more
+"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure," iVerify said in a new report published Thursday.
 
-[Read more](https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html)
+The name
+
+[Read more](https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html)
+
+---
+
+### 5. TP-Link Sued by Four More U.S. States Over Router Security and China Ties
+
+Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with &nbsp;Texas filing a suit in February. Florida, Iowa, Montana and Nebraska allege the California company misled buyers about how secure its routers are and how separate it is from China. TP-Link&nbsp;denies the claims&nbsp;and says it will fight them in court.
+
+TP-Link Systems is based in
+
+[Read more](https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html)
 
 ---
