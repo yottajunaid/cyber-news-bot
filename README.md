@@ -1,8 +1,38 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sun, 11 Oct 2026 15:04:14 +0530*
+*Last updated: Mon, 12 Oct 2026 15:41:49 +0530*
 
-### 1. P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands
+### 1. Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch
+
+Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure.
+
+The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that could allow a remote attacker "to direct the appliance to issue requests on their
+
+[Read more](https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html)
+
+---
+
+### 2. Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE
+
+A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack.
+
+The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The
+
+[Read more](https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html)
+
+---
+
+### 3. CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records
+
+Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine.
+
+The activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed
+
+[Read more](https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html)
+
+---
+
+### 4. P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands
 
 Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.
 
@@ -14,47 +44,12 @@ The name
 
 ---
 
-### 2. The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't
+### 5. The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't
 
 In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what authenticates through it, and most agents never do.
 
 That gap is the clearest
 
 [Read more](https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html)
-
----
-
-### 3. Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws
-
-Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites.
-
-The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude -
-
-
-  Claude Mythos
-
-[Read more](https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html)
-
----
-
-### 4. Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories
-
-Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories.
-
-"Using the account of Takashi Kitao, author of the 18,400-star game engine pyxel, the attacker pushed a malicious workflow to 27 repositories starting at 13:20 UTC," StepSecurity
-
-[Read more](https://thehackernews.com/2026/10/credential-stealing-github-actions.html)
-
----
-
-### 5. FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack
-
-The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X.
-
-ShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stolen sensitive data on almost all FBI agents and job applicants. The FBI has not named the suspect, and no charges have been made public.
-
-The
-
-[Read more](https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html)
 
 ---
