@@ -1,59 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Tue, 13 Oct 2026 15:54:19 +0530*
+*Last updated: Wed, 14 Oct 2026 13:48:08 +0530*
 
-### 1. LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network
+### 1. AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host
 
-Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.
+A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine.
 
-LG has issued a fix, according to&nbsp;an advisory published by SSD Secure Disclosure&nbsp;on October 12.
+The bug is tracked as&nbsp;CVE-2026-74580&nbsp;and named Vghost. Tencent Zhuque Lab, which found the
 
-The chain was tested on two TV models, the 32LQ636BPSA and the 27TQ600SW, running webOS 7.5.7-25 on firmware
-
-[Read more](https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html)
+[Read more](https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html)
 
 ---
 
-### 2. Product Walkthrough: Bitdefender AI Visibility and Control
+### 2. Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave
 
-A user opens a browser tab, pastes data into a chat assistant, and nothing is installed.
+Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.
 
-A developer adds a coding&nbsp;assistant as an editor extension, and nothing shows up in the installed programs list.
+The protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for a Windows anti-phishing feature.
 
-Someone downloads a local model runtime, a program that runs models directly on the machine instead of sending data to an external service, because they were told not to send company data
+The work was done in a lab as a proof of
 
-[Read more](https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html)
-
----
-
-### 3. Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers
-
-Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said.
-
-The attackers reached them through the controller that runs all of a store's fridges and freezers, a device made by Danish company Danfoss that maintenance firms can manage remotely. Les Mousquetaires
-
-[Read more](https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html)
+[Read more](https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html)
 
 ---
 
-### 4. Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control
+### 3. Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug
 
-Two of 31 newly disclosed flaws in Progress Software's&nbsp;MarkLogic Server&nbsp;database could let an account given only some management privileges take administrator control of the server, the company says.
+Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation.
 
-Progress published all 31 on October 12 and scored five of them critical. Fixes have been available since September 10, in&nbsp;MarkLogic 11.3.7&nbsp;and&nbsp;MarkLogic 12.1.0.
+These include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL Server. Of these, more than 670 relate to privilege escalation, followed by over 300 remote code
 
-Affected
-
-[Read more](https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html)
+[Read more](https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html)
 
 ---
 
-### 5. GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code
+### 4. OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room
 
-GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution.
+A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations.
 
-"GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD
+Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by
 
-[Read more](https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html)
+[Read more](https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html)
+
+---
+
+### 5. Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets
+
+Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic.
+
+The frontier AI lab said small AI models could form autonomous, self-propagating worm botnets that are "challenging to shut down," since "there's no centralized point to shut off."
+
+[Read more](https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html)
 
 ---
