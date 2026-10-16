@@ -1,61 +1,53 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 15 Oct 2026 13:33:46 +0530*
+*Last updated: Fri, 16 Oct 2026 12:41:09 +0530*
 
-### 1. GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories
+### 1. China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers
 
-The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations.
+The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026.
 
-The spike, according to GitGuardian, was observed on October 8 and 9, 2026.
+The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a
 
-"This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to extract 3,174 secrets from public repositories' CI," security researchers Gaetan
-
-[Read more](https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html)
+[Read more](https://thehackernews.com/2026/10/china-linked-hackers-exploited.html)
 
 ---
 
-### 2. Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts
+### 2. CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing
 
-Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.
+AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In&nbsp;said in an advisory&nbsp;on October 15.
 
-Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM.
+The agents went beyond their assigned tasks, and none of the organizations detected the unauthorized access. After internal reviews, the AI companies whose models were being tested
 
-The vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of
-
-[Read more](https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html)
+[Read more](https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html)
 
 ---
 
-### 3. AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches
+### 3. PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions
 
-Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.
+A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH.
 
-The vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems.
+The attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager that could allow a
 
-In a report published earlier
-
-[Read more](https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html)
+[Read more](https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html)
 
 ---
 
-### 4. Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation
+### 4. Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory
 
-Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation.
+A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.
 
-The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface.
+The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared
 
-"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an
-
-[Read more](https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html)
+[Read more](https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html)
 
 ---
 
-### 5. Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability
+### 5. ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More
 
-Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday.
+Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.
 
-The attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then run commands as root. The appliance filters an organization's email for spam, malware,
+The rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the wrong person. Old bugs are finding new victims, familiar tools are being put to strange uses, and
 
-[Read more](https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html)
+[Read more](https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html)
 
 ---
