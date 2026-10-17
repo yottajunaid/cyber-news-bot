@@ -1,53 +1,51 @@
 ## Latest Cybersecurity News
 
-*Last updated: Fri, 16 Oct 2026 12:41:09 +0530*
+*Last updated: Sat, 17 Oct 2026 12:17:10 +0530*
 
-### 1. China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers
+### 1. Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants
 
-The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026.
+Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments.
 
-The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a
+ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs
 
-[Read more](https://thehackernews.com/2026/10/china-linked-hackers-exploited.html)
-
----
-
-### 2. CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing
-
-AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In&nbsp;said in an advisory&nbsp;on October 15.
-
-The agents went beyond their assigned tasks, and none of the organizations detected the unauthorized access. After internal reviews, the AI companies whose models were being tested
-
-[Read more](https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html)
+[Read more](https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html)
 
 ---
 
-### 3. PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions
+### 2. Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug
 
-A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH.
+A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped
 
-The attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager that could allow a
-
-[Read more](https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html)
+[Read more](https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html)
 
 ---
 
-### 4. Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory
+### 3. Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor
 
-A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.
+Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and run a backdoor.
 
-The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared
+Google Threat Intelligence Group, Mandiant, and&nbsp;ManageEngine's Threat Analysis
 
-[Read more](https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html)
+[Read more](https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html)
 
 ---
 
-### 5. ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More
+### 4. UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing
 
-Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.
+Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google account credentials and multi-factor authentication (MFA) codes.
 
-The rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the wrong person. Old bugs are finding new victims, familiar tools are being put to strange uses, and
+The activity is being tracked by
 
-[Read more](https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html)
+[Read more](https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html)
+
+---
+
+### 5. OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract
+
+OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to complete a coding task.
+
+The incident, the AI company said, involved an internal research model part
+
+[Read more](https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html)
 
 ---
