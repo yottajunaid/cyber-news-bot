@@ -1,57 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 19 Oct 2026 14:03:20 +0530*
+*Last updated: Tue, 20 Oct 2026 11:58:28 +0530*
 
-### 1. Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers
+### 1. ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan
 
-A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16.
+Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks.
 
-He showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device
+The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application searches, resulting in execution of malicious code with the same privileges as the
 
-[Read more](https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html)
-
----
-
-### 2. OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys
-
-An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.
-
-Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without
-
-[Read more](https://thehackernews.com/2026/10/opencode-console-breach-may-have.html)
+[Read more](https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html)
 
 ---
 
-### 3. ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants
+### 2. Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge
 
-ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants.
+A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets.
 
-The disabled identities are listed below -
+In a new court filing Sunday, prosecutors revealed that Abdulrahman Alfozan, a 35-year-old Saudi national, was "in frequent communications via WhatsApp
 
-
-  ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae
-  ConnectWise
-
-[Read more](https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html)
+[Read more](https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html)
 
 ---
 
-### 4. MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon
+### 3. Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware
 
-Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.
+Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader.
 
-The package, named "imgdecode," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of
+According to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landing pages to trick unsuspecting users into running malicious commands and infecting their own
 
-[Read more](https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html)
+[Read more](https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html)
 
 ---
 
-### 5. Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants
+### 4. Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor
 
-Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments.
+Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public.
 
-ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs
+According to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell.
 
-[Read more](https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html)
+The vulnerabilities
+
+[Read more](https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html)
+
+---
+
+### 5. Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor
+
+Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;published on October 16.
+
+Any site that installed and activated one of those copies should be treated as compromised, and the
+
+[Read more](https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html)
 
 ---
