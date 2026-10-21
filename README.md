@@ -1,55 +1,60 @@
 ## Latest Cybersecurity News
 
-*Last updated: Tue, 20 Oct 2026 11:58:28 +0530*
+*Last updated: Wed, 21 Oct 2026 12:16:30 +0530*
 
-### 1. ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan
+### 1. State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web
 
-Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks.
+State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from.
 
-The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application searches, resulting in execution of malicious code with the same privileges as the
+The state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&nbsp;dated October 21 that it "has experienced an incident involving the loss of certain data." The count is
 
-[Read more](https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html)
-
----
-
-### 2. Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge
-
-A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets.
-
-In a new court filing Sunday, prosecutors revealed that Abdulrahman Alfozan, a 35-year-old Saudi national, was "in frequent communications via WhatsApp
-
-[Read more](https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html)
+[Read more](https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html)
 
 ---
 
-### 3. Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware
+### 2. CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws
 
-Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader.
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell.
 
-According to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landing pages to trick unsuspecting users into running malicious commands and infecting their own
+The vulnerabilities are listed below -
 
-[Read more](https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html)
 
----
+  CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)
 
-### 4. Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor
-
-Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public.
-
-According to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell.
-
-The vulnerabilities
-
-[Read more](https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html)
+[Read more](https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html)
 
 ---
 
-### 5. Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor
+### 3. Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion
 
-Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;published on October 16.
+A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization.
 
-Any site that installed and activated one of those copies should be treated as compromised, and the
+According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans.
 
-[Read more](https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html)
+Known to be active since at least 2020, the group has a track record of striking industrial
+
+[Read more](https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html)
+
+---
+
+### 4. PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert
+
+This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.
+
+PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.
+
+[Read more](https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html)
+
+---
+
+### 5. Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software
+
+The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20.
+
+An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept.
+
+A researcher reported the
+
+[Read more](https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html)
 
 ---
