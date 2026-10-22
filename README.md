@@ -1,60 +1,53 @@
 ## Latest Cybersecurity News
 
-*Last updated: Wed, 21 Oct 2026 12:16:30 +0530*
+*Last updated: Thu, 22 Oct 2026 13:39:07 +0530*
 
-### 1. State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web
+### 1. LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release
 
-State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from.
+LiteLLM on Wednesday disclosed that threat actors compromised "multiple independent security controls" to push a malicious version of the Python package containing a credential stealer and a backdoor.
 
-The state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&nbsp;dated October 21 that it "has experienced an incident involving the loss of certain data." The count is
+On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.
 
-[Read more](https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html)
-
----
-
-### 2. CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell.
-
-The vulnerabilities are listed below -
-
-
-  CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)
-
-[Read more](https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html)
+[Read more](https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html)
 
 ---
 
-### 3. Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion
+### 2. Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions
 
-A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization.
+Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system.
 
-According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans.
+Each supported line has one fixed version:&nbsp;
 
-Known to be active since at least 2020, the group has a track record of striking industrial
-
-[Read more](https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html)
+[Read more](https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html)
 
 ---
 
-### 4. PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert
+### 3. New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification
 
-This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.
+A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code.
 
-PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.
+By sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server
 
-[Read more](https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html)
+[Read more](https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html)
 
 ---
 
-### 5. Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software
+### 4. Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed
 
-The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20.
+Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches.
 
-An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept.
+"The exploit attempt originated from an IP address associated with a commercial anonymization network," CJ Moses,
 
-A researcher reported the
+[Read more](https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html)
 
-[Read more](https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html)
+---
+
+### 5. China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack
+
+Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.
+
+During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse in cyber attacks targeting South Korean financial institutions, to speed
+
+[Read more](https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html)
 
 ---
