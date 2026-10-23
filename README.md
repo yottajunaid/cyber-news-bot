@@ -1,53 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 22 Oct 2026 13:39:07 +0530*
+*Last updated: Fri, 23 Oct 2026 13:52:13 +0530*
 
-### 1. LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release
+### 1. Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data
 
-LiteLLM on Wednesday disclosed that threat actors compromised "multiple independent security controls" to push a malicious version of the Python package containing a credential stealer and a backdoor.
+Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.
 
-On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.
+Their "Node2Shell" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw
 
-[Read more](https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html)
-
----
-
-### 2. Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions
-
-Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system.
-
-Each supported line has one fixed version:&nbsp;
-
-[Read more](https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html)
+[Read more](https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html)
 
 ---
 
-### 3. New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification
+### 2. Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances
 
-A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code.
+AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22.
 
-By sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server
+The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set
 
-[Read more](https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html)
-
----
-
-### 4. Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed
-
-Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches.
-
-"The exploit attempt originated from an IP address associated with a commercial anonymization network," CJ Moses,
-
-[Read more](https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html)
+[Read more](https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html)
 
 ---
 
-### 5. China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack
+### 3. PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware
 
-Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.
+Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.
 
-During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse in cyber attacks targeting South Korean financial institutions, to speed
+The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote
 
-[Read more](https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html)
+[Read more](https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html)
+
+---
+
+### 4. The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat
+
+Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.
+
+Nobody reviewed its access. Nobody owns it.
+
+If an employee had that much reach with that little oversight, you would call it an insider risk. So why do we still call the agent a productivity tool?
+
+[Read more](https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html)
+
+---
+
+### 5. Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks
+
+Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October 22.
+
+The flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it.
+
+For
+
+[Read more](https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html)
 
 ---
