@@ -1,57 +1,58 @@
 ## Latest Cybersecurity News
 
-*Last updated: Fri, 23 Oct 2026 13:52:13 +0530*
+*Last updated: Sat, 24 Oct 2026 12:39:46 +0530*
 
-### 1. Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data
+### 1. CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud
 
-Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.
 
-Their "Node2Shell" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw
+The critical-severity vulnerabilities are listed below -
 
-[Read more](https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html)
 
----
+  CVE-2026-110447 (CVSS score: 9.2) - An operating
 
-### 2. Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances
-
-AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22.
-
-The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set
-
-[Read more](https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html)
+[Read more](https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html)
 
 ---
 
-### 3. PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware
+### 2. BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations
 
-Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.
+Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.
 
-The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote
+The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report
 
-[Read more](https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html)
-
----
-
-### 4. The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat
-
-Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.
-
-Nobody reviewed its access. Nobody owns it.
-
-If an employee had that much reach with that little oversight, you would call it an insider risk. So why do we still call the agent a productivity tool?
-
-[Read more](https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html)
+[Read more](https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html)
 
 ---
 
-### 5. Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks
+### 3. Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws
 
-Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October 22.
+Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.
 
-The flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it.
+GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers.
 
-For
+Ruby says any
 
-[Read more](https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html)
+[Read more](https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html)
+
+---
+
+### 4. Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions
+
+Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.
+
+Central to the operation is an "Autonomous Red Team Kill Chain Framework" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an
+
+[Read more](https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html)
+
+---
+
+### 5. Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials
+
+Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.
+
+"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,
+
+[Read more](https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html)
 
 ---
