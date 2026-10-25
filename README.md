@@ -1,58 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sat, 24 Oct 2026 12:39:46 +0530*
+*Last updated: Sun, 25 Oct 2026 12:58:53 +0530*
 
-### 1. CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud
+### 1. OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication
 
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.
+OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.
 
-The critical-severity vulnerabilities are listed below -
+"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no
 
-
-  CVE-2026-110447 (CVSS score: 9.2) - An operating
-
-[Read more](https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html)
+[Read more](https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html)
 
 ---
 
-### 2. BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations
+### 2. Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software
 
-Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.
+A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.
 
-The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report
+Tracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially
 
-[Read more](https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html)
-
----
-
-### 3. Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws
-
-Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.
-
-GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers.
-
-Ruby says any
-
-[Read more](https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html)
+[Read more](https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html)
 
 ---
 
-### 4. Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions
+### 3. Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline
 
-Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.
+LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.
 
-Central to the operation is an "Autonomous Red Team Kill Chain Framework" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an
+"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of
 
-[Read more](https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html)
+[Read more](https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html)
 
 ---
 
-### 5. Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials
+### 4. Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads
 
-Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.
+Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.
 
-"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,
+"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,
 
-[Read more](https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html)
+[Read more](https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html)
+
+---
+
+### 5. Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet
+
+Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.
+
+The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.
+
+Popcorn Time was
+
+[Read more](https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html)
 
 ---
