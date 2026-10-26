@@ -1,55 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sun, 25 Oct 2026 12:58:53 +0530*
+*Last updated: Mon, 26 Oct 2026 13:52:27 +0530*
 
-### 1. OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication
+### 1. Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations
 
-OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.
+Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations.
 
-"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no
+Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across
 
-[Read more](https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html)
-
----
-
-### 2. Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software
-
-A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.
-
-Tracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially
-
-[Read more](https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html)
+[Read more](https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html)
 
 ---
 
-### 3. Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline
+### 2. Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs
 
-LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.
+An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to&nbsp;an analysis&nbsp;by cloud security company Wiz.
 
-"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of
+A&nbsp;GitHub safeguard&nbsp;that pauses
 
-[Read more](https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html)
-
----
-
-### 4. Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads
-
-Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.
-
-"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,
-
-[Read more](https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html)
+[Read more](https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html)
 
 ---
 
-### 5. Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet
+### 3. Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware
 
-Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.
+A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a report published last week.
 
-The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.
+The company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder.
 
-Popcorn Time was
+The file
 
-[Read more](https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html)
+[Read more](https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html)
+
+---
+
+### 4. Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers
+
+A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.
+
+The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target.
+
+The findings were
+
+[Read more](https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html)
+
+---
+
+### 5. PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity
+
+In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws.
+
+"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application," a spokesperson for the company told The Hacker News via
+
+[Read more](https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html)
 
 ---
