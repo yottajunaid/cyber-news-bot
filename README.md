@@ -1,57 +1,58 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 26 Oct 2026 13:52:27 +0530*
+*Last updated: Tue, 27 Oct 2026 14:22:05 +0530*
 
-### 1. Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations
+### 1. Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers
 
-Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations.
+A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers.
 
-Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across
+"The next steps that we took were to disconnect that Amadey controller from all those
 
-[Read more](https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html)
-
----
-
-### 2. Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs
-
-An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to&nbsp;an analysis&nbsp;by cloud security company Wiz.
-
-A&nbsp;GitHub safeguard&nbsp;that pauses
-
-[Read more](https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html)
+[Read more](https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html)
 
 ---
 
-### 3. Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware
+### 2. OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections
 
-A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a report published last week.
+OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown.
 
-The company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder.
+OpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as&nbsp;an encrypted item&nbsp;the user cannot read. The method got past
 
-The file
-
-[Read more](https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html)
+[Read more](https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html)
 
 ---
 
-### 4. Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers
+### 3. Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses
 
-A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.
+The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.
 
-The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target.
+"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded," the State Special Communications Service of Ukraine (SSSCIP)
 
-The findings were
-
-[Read more](https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html)
+[Read more](https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html)
 
 ---
 
-### 5. PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity
+### 4. CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution
 
-In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws.
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog.
 
-"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application," a spokesperson for the company told The Hacker News via
+The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments -
 
-[Read more](https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html)
+
+  CVE-2026-109618 - An out-of-memory
+
+[Read more](https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html)
+
+---
+
+### 5. Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento
+
+An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.
+
+According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks.
+
+"When you
+
+[Read more](https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html)
 
 ---
