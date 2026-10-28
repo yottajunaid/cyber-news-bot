@@ -1,58 +1,53 @@
 ## Latest Cybersecurity News
 
-*Last updated: Tue, 27 Oct 2026 14:22:05 +0530*
+*Last updated: Wed, 28 Oct 2026 14:44:58 +0530*
 
-### 1. Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers
+### 1. Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits
 
-A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers.
+An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.
 
-"The next steps that we took were to disconnect that Amadey controller from all those
+The exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of
 
-[Read more](https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html)
-
----
-
-### 2. OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections
-
-OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown.
-
-OpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as&nbsp;an encrypted item&nbsp;the user cannot read. The method got past
-
-[Read more](https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html)
+[Read more](https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html)
 
 ---
 
-### 3. Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses
+### 2. FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering
 
-The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.
+The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine.
 
-"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded," the State Special Communications Service of Ukraine (SSSCIP)
+The move was in response to the service being used to commit and facilitate prolific criminal activity, including "the advertisement of sexually explicit images of minors, the intentional disclosure of nonconsensual intimate visual depictions
 
-[Read more](https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html)
-
----
-
-### 4. CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog.
-
-The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments -
-
-
-  CVE-2026-109618 - An out-of-memory
-
-[Read more](https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html)
+[Read more](https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html)
 
 ---
 
-### 5. Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento
+### 3. Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach
 
-An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.
+Japan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand.
 
-According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks.
+The reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service&nbsp;hosts Windows desktops&nbsp;used for FX trading,
 
-"When you
+[Read more](https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html)
 
-[Read more](https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html)
+---
+
+### 4. Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers
+
+Tailscale has released&nbsp;version 1.104.4&nbsp;to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the&nbsp;root&nbsp;user should be able to touch.
+
+The flaws are in how&nbsp;Tailscale SSH&nbsp;forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must
+
+[Read more](https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html)
+
+---
+
+### 5. ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws
+
+The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week.
+
+Oracle patched all three under a single identifier,&nbsp;CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address
+
+[Read more](https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html)
 
 ---
