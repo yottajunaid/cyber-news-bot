@@ -1,55 +1,62 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 29 Oct 2026 13:21:58 +0530*
+*Last updated: Fri, 30 Oct 2026 14:57:23 +0530*
 
-### 1. Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys
+### 1. Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor
 
-Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.
+Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to install a persistent SSH backdoor on infected hosts.
 
-The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&nbsp;Cisco Talos said&nbsp;on October 28. Talos calls the attacks historical but does not specify when they
+The issue has since been traced to the compromise of the Cursor Marketplace, prompting the AI coding platform Cursor to briefly take down the service to remove the malware.
 
-[Read more](https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html)
+"We identified a security incident
 
----
-
-### 2. China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector.
-
-The vulnerability in question is CVE-2026-41709 (CVSS score:
-
-[Read more](https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html)
+[Read more](https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html)
 
 ---
 
-### 3. Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces
+### 2. Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw
 
-Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces.
+Drupal has warned that threat actors are exploiting a "highly critical" security flaw in its Commerce Core component.
 
-"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet," the network security company said in an update to its advisory.
+The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13.
 
-The vulnerabilities, tracked as
+"This module enables you to sell goods and services to customers through an included shopping cart
 
-[Read more](https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html)
-
----
-
-### 4. Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns
-
-The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access.
-
-"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure," Lumen Technologies Black Lotus Labs said in a report shared
-
-[Read more](https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html)
+[Read more](https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html)
 
 ---
 
-### 5. Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.
+### 3. CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV
 
-Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background.
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.
 
-To qualify, a store must pass identity checks and send Google&nbsp;its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on
+The vulnerabilities are listed below -
 
-[Read more](https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html)
+
+  CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise
+
+[Read more](https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html)
+
+---
+
+### 4. Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen
+
+Cryptocurrency giant Binance said on Thursday that a "security incident" on its platform has impacted about $6.3 billion worth of assets.
+
+The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far.&nbsp;
+
+Tether and Circle said they have frozen more than 1.567 billion USDT and 800 million USDC related to the incident, respectively. The
+
+[Read more](https://thehackernews.com/2026/10/binance-suffers-security-breach.html)
+
+---
+
+### 5. ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories
+
+Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't.
+
+There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their
+
+[Read more](https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html)
 
 ---
