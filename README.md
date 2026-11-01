@@ -1,56 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sat, 31 Oct 2026 14:58:23 +0530*
+*Last updated: Sun, 01 Nov 2026 15:20:03 +0530*
 
-### 1. Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access
+### 1. CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key
 
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.
+A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate.
 
-The vulnerabilities are listed below -
+Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is
 
-
-  CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a
-
-[Read more](https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html)
+[Read more](https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html)
 
 ---
 
-### 2. A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats
+### 2. Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script
 
-A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed.
+Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.
 
-The researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbsp;on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.
+Polymarket says&nbsp;it is refunding about $2.7 million to 726 affected wallets.&nbsp;Blockchain records&nbsp;show crypto worth about $2.64 million reached
 
-[Read more](https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html)
-
----
-
-### 3. Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%
-
-Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.
-
-The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44
-
-[Read more](https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html)
+[Read more](https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html)
 
 ---
 
-### 4. Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide
+### 3. FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist
 
-Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.
+The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.
 
-The activity has been attributed by CrowdStrike to a China-based "targeted intrusion adversary" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in
+The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it
 
-[Read more](https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html)
+[Read more](https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html)
 
 ---
 
-### 5. TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them
+### 4. NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection
 
-TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host.
+Cybersecurity researchers have disclosed details of what has been described as a "highly sophisticated infection chain" targeting government organizations in Asia.
 
-A malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run
+The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed
 
-[Read more](https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html)
+[Read more](https://thehackernews.com/2026/11/netamloader-malware-targets-government.html)
+
+---
+
+### 5. Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data
+
+American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.
+
+However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens.
+
+"This month, Chainalysis detected an external actor using offensive agentic
+
+[Read more](https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html)
 
 ---
