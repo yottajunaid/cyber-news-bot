@@ -1,8 +1,38 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sun, 01 Nov 2026 15:20:03 +0530*
+*Last updated: Mon, 02 Nov 2026 15:58:15 +0530*
 
-### 1. CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key
+### 1. Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data
+
+Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller.
+
+Microsoft said in&nbsp;a report&nbsp;that it investigated two such intrusions, one of which resulted in company
+
+[Read more](https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html)
+
+---
+
+### 2. Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts
+
+Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure.
+
+The activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the moniker CL-UNK-1211, where "CL" refers to cluster and "UNK" stands for unknown
+
+[Read more](https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html)
+
+---
+
+### 3. New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value
+
+Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value.
+
+Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-based web browsers; data from Outlook profiles and Slack workspaces;
+
+[Read more](https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html)
+
+---
+
+### 4. CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key
 
 A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate.
 
@@ -12,44 +42,12 @@ Once in, the attacker would act as that client, with access to the cluster and i
 
 ---
 
-### 2. Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script
+### 5. Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script
 
 Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.
 
 Polymarket says&nbsp;it is refunding about $2.7 million to 726 affected wallets.&nbsp;Blockchain records&nbsp;show crypto worth about $2.64 million reached
 
 [Read more](https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html)
-
----
-
-### 3. FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist
-
-The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.
-
-The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it
-
-[Read more](https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html)
-
----
-
-### 4. NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection
-
-Cybersecurity researchers have disclosed details of what has been described as a "highly sophisticated infection chain" targeting government organizations in Asia.
-
-The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed
-
-[Read more](https://thehackernews.com/2026/11/netamloader-malware-targets-government.html)
-
----
-
-### 5. Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data
-
-American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.
-
-However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens.
-
-"This month, Chainalysis detected an external actor using offensive agentic
-
-[Read more](https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html)
 
 ---
