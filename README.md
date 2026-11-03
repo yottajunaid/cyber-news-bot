@@ -1,53 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 02 Nov 2026 15:58:15 +0530*
+*Last updated: Tue, 03 Nov 2026 15:04:46 +0530*
 
-### 1. Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data
+### 1. Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets
 
-Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller.
+BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions.
 
-Microsoft said in&nbsp;a report&nbsp;that it investigated two such intrusions, one of which resulted in company
+"Our investigation found that these attacks targeted servers running BTCPay Server 2.4.1 (released on 23 July 2026) or earlier," BTCPay Server
 
-[Read more](https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html)
-
----
-
-### 2. Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts
-
-Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure.
-
-The activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the moniker CL-UNK-1211, where "CL" refers to cluster and "UNK" stands for unknown
-
-[Read more](https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html)
+[Read more](https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html)
 
 ---
 
-### 3. New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value
+### 2. Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw
 
-Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value.
+Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks.
 
-Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-based web browsers; data from Outlook profiles and Slack workspaces;
+The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM.
 
-[Read more](https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html)
+"These attacks aim to encrypt data and extort ransom," it said in a statement
 
----
-
-### 4. CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key
-
-A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate.
-
-Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is
-
-[Read more](https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html)
+[Read more](https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html)
 
 ---
 
-### 5. Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script
+### 3. New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food
 
-Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.
+Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers.
 
-Polymarket says&nbsp;it is refunding about $2.7 million to 726 affected wallets.&nbsp;Blockchain records&nbsp;show crypto worth about $2.64 million reached
+No chain reported more than several dozen affected stores, and some had to throw away chilled and frozen food or take it off the shelf. Danfoss, a Danish maker of refrigeration controls,&nbsp
 
-[Read more](https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html)
+[Read more](https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html)
+
+---
+
+### 4. Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors
+
+A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed.
+
+The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code.
+
+"SIMATIC IoT2050 Advanced devices running
+
+[Read more](https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html)
+
+---
+
+### 5. Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials
+
+Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber.
+
+The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract
+
+[Read more](https://thehackernews.com/2026/11/attackers-target-unpatched.html)
 
 ---
