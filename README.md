@@ -1,57 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Tue, 03 Nov 2026 15:04:46 +0530*
+*Last updated: Wed, 04 Nov 2026 16:42:05 +0530*
 
-### 1. Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets
+### 1. Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads
 
-BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions.
+A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in&nbsp;an advisory&nbsp;and fixed it in versions 8.1.4.1 and 8.0.5.2.
 
-"Our investigation found that these attacks targeted servers running BTCPay Server 2.4.1 (released on 23 July 2026) or earlier," BTCPay Server
+The flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store
 
-[Read more](https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html)
-
----
-
-### 2. Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw
-
-Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks.
-
-The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM.
-
-"These attacks aim to encrypt data and extort ransom," it said in a statement
-
-[Read more](https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html)
+[Read more](https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html)
 
 ---
 
-### 3. New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food
+### 2. Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory
 
-Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers.
+Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.
 
-No chain reported more than several dozen affected stores, and some had to throw away chilled and frozen food or take it off the shelf. Danfoss, a Danish maker of refrigeration controls,&nbsp
+Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an&nbsp;advisory&nbsp;on November 3.
 
-[Read more](https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html)
+All Xen versions from 4.6 onward are vulnerable,
 
----
-
-### 4. Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors
-
-A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed.
-
-The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code.
-
-"SIMATIC IoT2050 Advanced devices running
-
-[Read more](https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html)
+[Read more](https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html)
 
 ---
 
-### 5. Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials
+### 3. Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It
 
-Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber.
+Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one.
 
-The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract
+One recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation
 
-[Read more](https://thehackernews.com/2026/11/attackers-target-unpatched.html)
+[Read more](https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html)
+
+---
+
+### 4. China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor
+
+A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP).
+
+The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and
+
+[Read more](https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html)
+
+---
+
+### 5. Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure
+
+Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure.
+
+Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016.
+
+The Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are "suspected of embezzling funds from the
+
+[Read more](https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html)
 
 ---
