@@ -1,57 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Wed, 04 Nov 2026 16:42:05 +0530*
+*Last updated: Thu, 05 Nov 2026 16:42:30 +0530*
 
-### 1. Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads
+### 1. OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run
 
-A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in&nbsp;an advisory&nbsp;and fixed it in versions 8.1.4.1 and 8.0.5.2.
+OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.
 
-The flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store
+"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)
 
-[Read more](https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html)
-
----
-
-### 2. Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory
-
-Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.
-
-Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an&nbsp;advisory&nbsp;on November 3.
-
-All Xen versions from 4.6 onward are vulnerable,
-
-[Read more](https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html)
+[Read more](https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html)
 
 ---
 
-### 3. Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It
+### 2. 5 Active Cyber Threats That Put US Enterprises at Risk in October 2026
 
-Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one.
+October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption.
 
-One recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation
+Below, we examine five
 
-[Read more](https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html)
-
----
-
-### 4. China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor
-
-A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP).
-
-The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and
-
-[Read more](https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html)
+[Read more](https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html)
 
 ---
 
-### 5. Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure
+### 3. Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content
 
-Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure.
+Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3.
 
-Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016.
+The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to "Anyone with the link."
 
-The Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are "suspected of embezzling funds from the
+When users choose this option,
 
-[Read more](https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html)
+[Read more](https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html)
+
+---
+
+### 4. CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access
+
+The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country.
+
+Describing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools
+
+[Read more](https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html)
+
+---
+
+### 5. Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution
+
+Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found.
+
+The exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole.
+
+The earlier fix is the 2.90
+
+[Read more](https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html)
 
 ---
