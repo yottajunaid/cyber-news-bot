@@ -1,57 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 05 Nov 2026 16:42:30 +0530*
+*Last updated: Fri, 06 Nov 2026 16:06:26 +0530*
 
-### 1. OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run
+### 1. The Flood is Coming And The Pipes Were Already Full
 
-OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.
+An update on Athena, and some unsolicited predictions on what's coming next
 
-"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)
+On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May.
 
-[Read more](https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html)
+The hardest piece of his
 
----
-
-### 2. 5 Active Cyber Threats That Put US Enterprises at Risk in October 2026
-
-October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption.
-
-Below, we examine five
-
-[Read more](https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html)
+[Read more](https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html)
 
 ---
 
-### 3. Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content
+### 2. Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services
 
-Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3.
+Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.
 
-The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to "Anyone with the link."
+"While we investigated, we removed access to Reactor and Data Solutions," the company said. "At this time we continue to have no evidence that any investigations data has been accessed
 
-When users choose this option,
-
-[Read more](https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html)
+[Read more](https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html)
 
 ---
 
-### 4. CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access
+### 3. Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs
 
-The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country.
+A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.
 
-Describing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools
+The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.
 
-[Read more](https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html)
+[Read more](https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html)
 
 ---
 
-### 5. Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution
+### 4. Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login
 
-Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found.
+Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.
 
-The exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole.
+The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday.
 
-The earlier fix is the 2.90
+One flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a
 
-[Read more](https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html)
+[Read more](https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html)
+
+---
+
+### 5. OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux
+
+Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long.
+
+OpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every
+
+[Read more](https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html)
 
 ---
