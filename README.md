@@ -1,57 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Fri, 06 Nov 2026 16:06:26 +0530*
+*Last updated: Sat, 07 Nov 2026 14:57:41 +0530*
 
-### 1. The Flood is Coming And The Pipes Were Already Full
+### 1. Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub
 
-An update on Athena, and some unsolicited predictions on what's coming next
+Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.
 
-On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May.
+When a user selects "Yes, and don't ask again," Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file.
 
-The hardest piece of his
+Software security company Apiiro said yesterday that 1,122 public
 
-[Read more](https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html)
-
----
-
-### 2. Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services
-
-Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.
-
-"While we investigated, we removed access to Reactor and Data Solutions," the company said. "At this time we continue to have no evidence that any investigations data has been accessed
-
-[Read more](https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html)
+[Read more](https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html)
 
 ---
 
-### 3. Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs
+### 2. Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time
 
-A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.
+Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.
 
-The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.
+The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the
 
-[Read more](https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html)
-
----
-
-### 4. Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login
-
-Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.
-
-The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday.
-
-One flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a
-
-[Read more](https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html)
+[Read more](https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html)
 
 ---
 
-### 5. OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux
+### 3. Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot
 
-Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long.
+Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.
 
-OpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every
+The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,
 
-[Read more](https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html)
+[Read more](https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html)
+
+---
+
+### 4. OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits
+
+OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.
+
+The new model is "more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set," OpenAI said. It has classified the model as
+
+[Read more](https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html)
+
+---
+
+### 5. Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It
+
+A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.
+
+The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.
+
+The flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates
+
+[Read more](https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html)
 
 ---
