@@ -1,6 +1,6 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sat, 07 Nov 2026 14:57:41 +0530*
+*Last updated: Sun, 08 Nov 2026 14:56:18 +0530*
 
 ### 1. Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub
 
