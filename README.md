@@ -1,57 +1,59 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sun, 08 Nov 2026 14:56:18 +0530*
+*Last updated: Mon, 09 Nov 2026 17:32:22 +0530*
 
-### 1. Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub
+### 1. Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars
 
-Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.
+The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine.
 
-When a user selects "Yes, and don't ask again," Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file.
+Both apps signed customers in through ForgeRock, an identity platform now part of Ping Identity, and on those servers the researchers reached an
 
-Software security company Apiiro said yesterday that 1,122 public
-
-[Read more](https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html)
+[Read more](https://thehackernews.com/2026/11/default-adminadmin-server-password.html)
 
 ---
 
-### 2. Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time
+### 2. Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety
 
-Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.
+Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker.
 
-The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the
+Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies said late last week.
 
-[Read more](https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html)
+Web3Auth then used the attacker's own route to empty other at-risk wallets before the attacker
 
----
-
-### 3. Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot
-
-Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.
-
-The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,
-
-[Read more](https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html)
+[Read more](https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html)
 
 ---
 
-### 4. OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits
+### 3. LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks
 
-OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.
+Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday.
 
-The new model is "more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set," OpenAI said. It has classified the model as
+It has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to withdraw 2,285,545 satoshis, about 0.023 bitcoin, from his server before he could
 
-[Read more](https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html)
+[Read more](https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html)
 
 ---
 
-### 5. Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It
+### 4. Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records
 
-A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.
+A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week.
 
-The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.
+The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a login.
 
-The flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates
+The researchers are highly confident that the attacker is a single person
 
-[Read more](https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html)
+[Read more](https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html)
+
+---
+
+### 5. Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room
+
+The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty.
+
+According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday, where he entered the plea. His next hearing is scheduled for November 17, 2026.
+
+If proven guilty, the
+
+[Read more](https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html)
 
 ---
