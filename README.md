@@ -1,57 +1,58 @@
 ## Latest Cybersecurity News
 
-*Last updated: Tue, 10 Nov 2026 17:15:02 +0530*
+*Last updated: Wed, 11 Nov 2026 15:01:54 +0530*
 
-### 1. Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed
+### 1. Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes
 
-An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix.
+Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.
 
-A researcher who goes by forcequit released the escape, called worse_query, on Sunday, a
+These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.
 
-[Read more](https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html)
-
----
-
-### 2. Beyond the Alert: The Case for Rich Network Data
-
-At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prevention has its limits, we arrive at an interdiction strategy: finding and disrupting what got in.
-
-After the alert
-
-The alert tells you something happened. However, gaining
-
-[Read more](https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html)
+[Read more](https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html)
 
 ---
 
-### 3. Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities
+### 2. Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges
 
-An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined.
+AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them.
 
-As of today, other updates released yesterday for the iPhone XS, XS Max and XR, the iPad (7th generation) and some Apple
+The company builds and runs apps for its customers and stores their secrets, such as API keys and database
 
-[Read more](https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html)
-
----
-
-### 4. Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers
-
-The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails.
-
-According to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for
-
-[Read more](https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html)
+[Read more](https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html)
 
 ---
 
-### 5. SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution
+### 3. Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons
 
-Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score.
+An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown.
 
-Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server.
+When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The attacker must be able to change the model's weights.
 
-The flaws in the Web
+The team tested the method on
 
-[Read more](https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html)
+[Read more](https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html)
+
+---
+
+### 4. Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
+
+Details of the vulnerabilities are below -
+
+
+  CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity
+
+[Read more](https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html)
+
+---
+
+### 5. Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones
+
+A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1.
+
+The flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An
+
+[Read more](https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html)
 
 ---
