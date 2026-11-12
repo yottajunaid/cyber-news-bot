@@ -1,58 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Wed, 11 Nov 2026 15:01:54 +0530*
+*Last updated: Thu, 12 Nov 2026 17:04:29 +0530*
 
-### 1. Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes
+### 1. Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs
 
-Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.
+Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week.
 
-These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.
+The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel.
 
-[Read more](https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html)
+The affected
 
----
-
-### 2. Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges
-
-AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them.
-
-The company builds and runs apps for its customers and stores their secrets, such as API keys and database
-
-[Read more](https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html)
+[Read more](https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html)
 
 ---
 
-### 3. Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons
+### 2. Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them
 
-An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown.
+Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access?
 
-When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The attacker must be able to change the model's weights.
+A suspicious login might belong to an employee. An unusual API call could come from a machine account. Or an AI agent might be accessing sensitive systems using permissions nobody
 
-The team tested the method on
-
-[Read more](https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html)
+[Read more](https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html)
 
 ---
 
-### 4. Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches
+### 3. New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access
 
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
+N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2.
 
-Details of the vulnerabilities are below -
+"Based on our initial review, the server issue described depends on a non-default configuration in which the Legacy API is turned on and exposed to the public internet," N-able said in a new advisory. "Legacy API is
 
-
-  CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity
-
-[Read more](https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html)
+[Read more](https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html)
 
 ---
 
-### 5. Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones
+### 4. Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign
 
-A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1.
+Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose.
 
-The flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An
+The Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire.
 
-[Read more](https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html)
+[Read more](https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html)
+
+---
+
+### 5. PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution
+
+PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution.
+
+The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0.
+
+It has been described as a case of improper input validation and deserialization of untrusted data that could result in
+
+[Read more](https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html)
 
 ---
