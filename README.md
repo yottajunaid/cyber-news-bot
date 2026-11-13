@@ -1,57 +1,55 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 12 Nov 2026 17:04:29 +0530*
+*Last updated: Fri, 13 Nov 2026 16:27:49 +0530*
 
-### 1. Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs
+### 1. When an AI Agent Goes Wrong, Can You Stop It?
 
-Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week.
+Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action.
 
-The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel.
+That kind of scenario raises a response question: what does “stop the agent” actually mean? A
 
-The affected
-
-[Read more](https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html)
+[Read more](https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html)
 
 ---
 
-### 2. Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them
+### 2. SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users
 
-Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access?
+A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan.
 
-A suspicious login might belong to an employee. An unusual API call could come from a machine account. Or an AI agent might be accessing sensitive systems using permissions nobody
+Enea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor,
 
-[Read more](https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html)
-
----
-
-### 3. New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access
-
-N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2.
-
-"Based on our initial review, the server issue described depends on a non-default configuration in which the Legacy API is turned on and exposed to the public internet," N-able said in a new advisory. "Legacy API is
-
-[Read more](https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html)
+[Read more](https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html)
 
 ---
 
-### 4. Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign
+### 3. Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins
 
-Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose.
+An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks.
 
-The Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire.
+Police also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA).
 
-[Read more](https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html)
+Gootloader is a loader:
+
+[Read more](https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html)
 
 ---
 
-### 5. PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution
+### 4. Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files
 
-PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution.
+An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS&nbsp; to deploy a backdoor called TSGA.
 
-The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0.
+The activity, detailed by Check Point, began on October 30, 2026, and targeted Israeli organizations, with a broader follow-up
 
-It has been described as a case of improper input validation and deserialization of untrusted data that could result in
+[Read more](https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html)
 
-[Read more](https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html)
+---
+
+### 5. Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2
+
+N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell.
+
+"We are restricting certain N-central features and integrations," the company said in a Thursday update. "These measures may affect some functionality, but we believe taking additional precautions while remediation is completed is the
+
+[Read more](https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html)
 
 ---
