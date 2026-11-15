@@ -1,8 +1,40 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sat, 14 Nov 2026 16:01:40 +0530*
+*Last updated: Sun, 15 Nov 2026 16:30:14 +0530*
 
-### 1. PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE
+### 1. Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent
+
+Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.
+
+The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent.
+
+The company has 60 days to
+
+[Read more](https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html)
+
+---
+
+### 2. Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident
+
+The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.
+
+"An attacker obtained an access key we had issued to Fireworks," Cursor said in a Friday update. "The key was exposed by Fireworks, and the attacker used it to copy data from a read-only
+
+[Read more](https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html)
+
+---
+
+### 3. Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.
+
+The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters
+
+[Read more](https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html)
+
+---
+
+### 4. PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE
 
 A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server.
 
@@ -12,42 +44,12 @@ The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this w
 
 ---
 
-### 2. New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs
+### 5. New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs
 
 Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out.
 
 One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers
 
 [Read more](https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html)
-
----
-
-### 3. FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls
-
-The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months.
-
-As part of a coordinated set of actions announced by the U.S. government, the cloud-based
-
-[Read more](https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html)
-
----
-
-### 4. Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases
-
-Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday.
-
-The implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other
-
-[Read more](https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html)
-
----
-
-### 5. When an AI Agent Goes Wrong, Can You Stop It?
-
-Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action.
-
-That kind of scenario raises a response question: what does “stop the agent” actually mean? A
-
-[Read more](https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html)
 
 ---
