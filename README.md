@@ -1,57 +1,59 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 16 Nov 2026 15:28:52 +0530*
+*Last updated: Tue, 17 Nov 2026 16:57:13 +0530*
 
-### 1. SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity
+### 1. Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap
 
-A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads.
+Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.
 
-Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in
+In March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a
 
-[Read more](https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html)
-
----
-
-### 2. Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys
-
-Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.
-
-The records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys.
-
-The team said this
-
-[Read more](https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html)
+[Read more](https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html)
 
 ---
 
-### 3. BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server
+### 2. Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission
 
-An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server.
+A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped "Don't Allow" on the microphone prompt.
 
-The activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,
+The first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw report that it was used in attacks.
 
-[Read more](https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html)
+Nik Tsytsarkin of Meta Red Team X published the technical details last week. Mustafa
 
----
-
-### 4. Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent
-
-Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.
-
-The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent.
-
-The company has 60 days to
-
-[Read more](https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html)
+[Read more](https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html)
 
 ---
 
-### 5. Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident
+### 3. New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels
 
-The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.
+Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2).
 
-"An attacker obtained an access key we had issued to Fireworks," Cursor said in a Friday update. "The key was exposed by Fireworks, and the attacker used it to copy data from a read-only
+The activity has been codenamed Operation ShadowCloud by Kaspersky. The Russian cybersecurity company said it identified the campaign in early 2026.
 
-[Read more](https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html)
+[Read more](https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html)
+
+---
+
+### 4. Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks
+
+Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents.
+
+The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control and Data Access, and Full Disk Access.
+
+"Before granting an app such
+
+[Read more](https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html)
+
+---
+
+### 5. Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors
+
+An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today.
+
+Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to Report URI, a firm that monitors the scripts websites run.
+
+The code was built to
+
+[Read more](https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html)
 
 ---
