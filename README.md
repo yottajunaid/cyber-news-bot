@@ -1,55 +1,60 @@
 ## Latest Cybersecurity News
 
-*Last updated: Fri, 20 Nov 2026 17:07:02 +0530*
+*Last updated: Sat, 21 Nov 2026 17:20:49 +0530*
 
-### 1. Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts
+### 1. A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats
 
-A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean.
+A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown.
 
-On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled.
+The same attack could be extended to reach the credentials Muse stores for the user's connected accounts.
 
-Fixed kernels shipped
+The work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's
 
-[Read more](https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html)
-
----
-
-### 2. The Path to AI Autonomy in the SOC
-
-Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% expect to be comfortable at that level. Overall, AI SOC was the highest ranking initiative for 2027.
-
-The pressure
-
-[Read more](https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html)
+[Read more](https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html)
 
 ---
 
-### 3. SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws
+### 2. GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys
 
-SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks.
+A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG.
 
-"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever," SonicWall said. "We expect internet-facing Gen 6 firewalls to be actively
+The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions.
 
-[Read more](https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html)
+The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,
 
----
-
-### 4. Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network
-
-Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit.
-
-The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway
-
-[Read more](https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html)
+[Read more](https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html)
 
 ---
 
-### 5. China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data
+### 3. Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access
 
-The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.
+Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week.
 
-The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized
+The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,
 
-[Read more](https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html)
+[Read more](https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html)
+
+---
+
+### 4. Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS
+
+Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is "incomplete."
+
+The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal
+
+[Read more](https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html)
+
+---
+
+### 5. Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.
+
+The vulnerabilities are listed below -
+
+
+  CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in
+
+[Read more](https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html)
 
 ---
