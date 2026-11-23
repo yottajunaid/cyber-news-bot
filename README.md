@@ -1,61 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Sun, 22 Nov 2026 15:53:04 +0530*
+*Last updated: Mon, 23 Nov 2026 19:32:56 +0530*
 
-### 1. OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms
+### 1. Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions
 
-Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.
+A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code.
 
-Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored.
+The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions prior to 2.3.1.
 
-OpenRouter, a gateway that routes customers' AI requests to a pool of
+"Binary-parser before 2.3.1 contains a code injection vulnerability that allows
 
-[Read more](https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html)
-
----
-
-### 2. Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps
-
-A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.
-
-Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly.
-
-Security firm pwn.ai showed this week that ordinary upload,
-
-[Read more](https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html)
+[Read more](https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html)
 
 ---
 
-### 3. A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats
+### 2. Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning
 
-A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown.
+Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers.
 
-The same attack could be extended to reach the credentials Muse stores for the user's connected accounts.
+The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host.
 
-The work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's
+"On November 12, 2026, we observed one managed service
 
-[Read more](https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html)
-
----
-
-### 4. GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys
-
-A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG.
-
-The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions.
-
-The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,
-
-[Read more](https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html)
+[Read more](https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html)
 
 ---
 
-### 5. Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access
+### 3. N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation
 
-Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week.
+N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers.
 
-The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,
+The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the
 
-[Read more](https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html)
+[Read more](https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html)
+
+---
+
+### 4. Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE
+
+Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf ("Idunno.AntiCsrf.dll") following the discovery of a critical vulnerability that has been exploited in the wild.
+
+The vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an
+
+[Read more](https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html)
+
+---
+
+### 5. Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices
+
+Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today.
+
+The company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.
+
+[Read more](https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html)
 
 ---
