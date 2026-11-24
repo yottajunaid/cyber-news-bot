@@ -1,57 +1,57 @@
 ## Latest Cybersecurity News
 
-*Last updated: Mon, 23 Nov 2026 19:32:56 +0530*
+*Last updated: Tue, 24 Nov 2026 18:44:16 +0530*
 
-### 1. Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions
+### 1. VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation
 
-A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code.
+Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication.
 
-The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions prior to 2.3.1.
+The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service ("vmdir").
 
-"Binary-parser before 2.3.1 contains a code injection vulnerability that allows
+"A malicious actor with
 
-[Read more](https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html)
-
----
-
-### 2. Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning
-
-Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers.
-
-The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host.
-
-"On November 12, 2026, we observed one managed service
-
-[Read more](https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html)
+[Read more](https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html)
 
 ---
 
-### 3. N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation
+### 2. Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site
 
-N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers.
+A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team.
 
-The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the
+The cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vishing) attacks to trick targets into entering credentials in phishing pages and approving
 
-[Read more](https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html)
-
----
-
-### 4. Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE
-
-Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf ("Idunno.AntiCsrf.dll") following the discovery of a critical vulnerability that has been exploited in the wild.
-
-The vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an
-
-[Read more](https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html)
+[Read more](https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html)
 
 ---
 
-### 5. Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices
+### 3. Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap
 
-Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today.
+Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.
 
-The company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.
+In March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a
 
-[Read more](https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html)
+[Read more](https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html)
+
+---
+
+### 4. Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity
+
+A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday.
+
+The same loading behavior bypassed Oracle VirtualBox's process hardening on Windows hosts, tracked as CVE-2026-87268, and Windows code integrity, tracked
+
+[Read more](https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html)
+
+---
+
+### 5. 2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk
+
+What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose?
+
+According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis and IOC research. That's a significant opportunity as manual investigations, repeated checks, and unnecessary escalations continue to drain resources.
+
+As
+
+[Read more](https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html)
 
 ---
