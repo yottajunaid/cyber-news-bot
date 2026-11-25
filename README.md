@@ -1,57 +1,60 @@
 ## Latest Cybersecurity News
 
-*Last updated: Tue, 24 Nov 2026 18:44:16 +0530*
+*Last updated: Wed, 25 Nov 2026 18:32:45 +0530*
 
-### 1. VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation
+### 1. Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains
 
-Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication.
+Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr.
 
-The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service ("vmdir").
+The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below -
 
-"A malicious actor with
 
-[Read more](https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html)
+  CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch
 
----
-
-### 2. Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site
-
-A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team.
-
-The cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vishing) attacks to trick targets into entering credentials in phishing pages and approving
-
-[Read more](https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html)
+[Read more](https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html)
 
 ---
 
-### 3. Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap
+### 2. U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion
 
-Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.
+The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in "unauthorized access to a limited subset of its systems," the bureau said on Tuesday. As a precaution, it has taken some systems offline.
 
-In March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a
+The bureau collects suspicious activity reports and other Bank Secrecy Act (BSA) filings from banks and other financial
 
-[Read more](https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html)
-
----
-
-### 4. Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity
-
-A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday.
-
-The same loading behavior bypassed Oracle VirtualBox's process hardening on Windows hosts, tracked as CVE-2026-87268, and Windows code integrity, tracked
-
-[Read more](https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html)
+[Read more](https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html)
 
 ---
 
-### 5. 2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk
+### 3. Credential Remediation Is Slow When You Don’t Know What Will Break
 
-What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose?
+TL;DR
 
-According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis and IOC research. That's a significant opportunity as manual investigations, repeated checks, and unnecessary escalations continue to drain resources.
 
-As
+  More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break.
+  Validity-only triage misses 46% of critical secrets: Prioritize by impact instead, weighing what a credential can access and whether it leaked publicly, and update the
 
-[Read more](https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html)
+[Read more](https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html)
+
+---
+
+### 4. Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026.
+
+The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core.
+
+"Drupal Core
+
+[Read more](https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html)
+
+---
+
+### 5. Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail
+
+A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday.
+
+Abdulrahman Alfozan, a 35-year-old Saudi national, was arrested on October 9, 2026, for allegedly bugging the artificial intelligence (AI) company's offices with the aim
+
+[Read more](https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html)
 
 ---
