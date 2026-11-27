@@ -1,58 +1,53 @@
 ## Latest Cybersecurity News
 
-*Last updated: Thu, 26 Nov 2026 18:16:54 +0530*
+*Last updated: Fri, 27 Nov 2026 17:53:50 +0530*
 
-### 1. Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls
+### 1. Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control
 
-Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about.
+Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT.
 
-At Push Security, we measure this as breakthrough rate: The share of attacks that get past email security, web gateways, and safe browsing to reach the user.
+The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool ("snipp.codes-team[.]com"), from where a Microsoft-signed installer called "Snipping-Tool.exe" is
 
-How an
-
-[Read more](https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html)
+[Read more](https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html)
 
 ---
 
-### 2. 1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach
+### 2. How to Keep Your Security Picture Current When Attackers Move at AI Speed
 
-Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed.
+Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone pulls them together the week before, cleans them up, and presents a picture of a program that is,
 
-"While we took immediate steps to contain the incident, the attacker gained access to some of our backend systems and accessed a
-
-[Read more](https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html)
+[Read more](https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html)
 
 ---
 
-### 3. Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation
+### 3. Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware
 
-Drupal has warned of a new "highly critical" security flaw impacting Drupal core that it said has been exploited in the wild.
+Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website.
 
-The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states
+"Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed
 
-[Read more](https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html)
-
----
-
-### 4. Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week.
-
-The Mitel MiCollab vulnerabilities are listed below -
-
-
-  CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and
-
-[Read more](https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html)
+[Read more](https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html)
 
 ---
 
-### 5. 13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps
+### 4. Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators
 
-Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment.
+Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday.
 
-"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls," Socket security researcher Kush Pandya said in a technical write-up. "In the versions we analyzed, building or running a
+Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disruptions reported. The victims have not been named, and it is not known who is
 
-[Read more](https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html)
+[Read more](https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html)
+
+---
+
+### 5. Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access
+
+Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution.
+
+The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT.
+
+"I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server
+
+[Read more](https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html)
 
 ---
